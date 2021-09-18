@@ -1,6 +1,7 @@
 firebase.auth().onAuthStateChanged(function(user) {
   if (user) {
     // User is signed in.
+
     document.getElementById("user_div").style.display = "block";
     document.getElementById("login_div").style.display = "none";
 
@@ -35,6 +36,7 @@ function login(){
     window.alert("Error : " + errorMessage);
 
   });
+  window.location.replace("input.html");
 
 }
 
@@ -43,6 +45,8 @@ function google_login(){
   const provider = new firebase.auth.GoogleAuthProvider();
 
   firebase.auth().signInWithRedirect(provider);
+  window.location.replace("input.html");
+
 }
 
 function logout(){
@@ -61,6 +65,3 @@ signupForm.addEventListener('submit', (e) =>{
 
 })
 
-function signup(){
-
-}

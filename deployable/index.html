@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html>
 <head>
   <title>RiceEats Login</title>
@@ -10,22 +10,22 @@
 
   <div id="login_div" class="main-div">
     <h3>RiceEats Login</h3>
-    <input type="email" placeholder="Email..." id="email_field" />
-    <input type="password" placeholder="Password..." id="password_field" />
+  
+      <input type="email" placeholder="Email..." id="email_field" />
+      <input type="password" placeholder="Password..." id="password_field" />
 
     <button onclick="login()">Login to Account</button><br>
     <button onclick="google_login()" id="googlelogin">Login with Google</button><br>
     <a href="signup.html" class="link">Signup</a>
-    <a href="input.html" class="link">Preferences</a>
 
+    <div id="user_div" class="loggedin-div">
+      <h3>Welcome User</h3>
+      <p id="user_para">Welcome to RiceEats web login. You're currently logged in.</p>
+      <button onclick="logout()">Logout</button>
+  </div>
 
   </div>
 
-  <div id="user_div" class="loggedin-div">
-    <h3>Welcome User</h3>
-    <p id="user_para">Welcome to RiceEats web login Example. You're currently logged in.</p>
-    <button onclick="logout()">Logout</button>
-  </div>
 
   <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-app.js"></script>
 
