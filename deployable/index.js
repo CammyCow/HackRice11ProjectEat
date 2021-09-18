@@ -1,7 +1,3 @@
-import from "https://www.gstatic.com/firebasejs/8.0.1/firebase-app.js";
-import from "https://www.gstatic.com/firebasejs/8.0.0/firebase-auth.js"
-import from "https://www.gstatic.com/firebasejs/4.8.1/firebase.js";
-
   // Initialize Firebase
 const firebaseConfig = {
   apiKey: "AIzaSyDgOQIJswEfH56KFvVAdq8KXZstPyZB3kg",
