@@ -1,10 +1,13 @@
 # used Tutor from this website to scrape data from dynamic websites:
 # https://www.notion.so/Recommand-Algorithms-da42b30bef4c4cd5a09db9e912cbce16
 import os
+import json
+import pandas as pd
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup
 from collections import defaultdict
+
 
 def menu_scraping():
     # Instantiate an Options object and tell the browser to run in a headless mode
@@ -24,7 +27,7 @@ def menu_scraping():
             'https://dining.rice.edu/south-servery/full-week-menu',
             'https://dining.rice.edu/west-servery/full-week-menu']
 
-    menu = defaultdict(lambda: defaultdict(lambda:defaultdict()))
+    menu = defaultdict(lambda: defaultdict(lambda: defaultdict()))
     days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
     serveries = ['Baker Kitchen', 'North Servery', 'Seibel Servery', 'South Servery', 'West Servery']
 
@@ -36,13 +39,13 @@ def menu_scraping():
         soup = BeautifulSoup(soup_file, 'lxml')
 
         # Extract menu info in the form of seperated days
-        all_days = soup.find_all('div', {'class':'item'})
+        all_days = soup.find_all('div', {'class': 'item'})
         day_menu_raw = []
         for day in all_days:
             day_menu_raw.append(day.get_text())
 
         # Extract menu info in the form of seperated dishes
-        menu_raw = soup.find_all('div', {'class':'mitem'})
+        menu_raw = soup.find_all('div', {'class': 'mitem'})
         discrete_menu = []
         for dish in menu_raw:
             discrete_menu.append(dish.get_text())
@@ -68,4 +71,18 @@ def menu_scraping():
                 j += 1
     return menu
 
-menu_scraping()
+menu = menu_scraping()
+def data_frame(menu):
+    d = {'foodName': [], 'date': [], 'isLunch': [], 'place': []}
+    data_set = pd.DataFrame(data=d)
+
+    for key1 in menu.keys():
+        for key2 in menu[key1].keys():
+            for key3 in menu[key1][key2].keys():
+                for item in menu[key1][key2][key3]:
+                    df2 = pd.DataFrame([[item, key1, key3, key2]], columns=['foodName', 'date', 'isLunch', 'place'])
+                    data_set=pd.concat([data_set, df2], ignore_index=True)
+    result = data_set.to_json(orient="split")
+    print(result)
+
+data_frame(menu)
