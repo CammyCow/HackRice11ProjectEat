@@ -1,6 +1,8 @@
 # used Tutor from this website to scrape data from dynamic websites:
 # https://www.notion.so/Recommand-Algorithms-da42b30bef4c4cd5a09db9e912cbce16
 import os
+import pandas as pd
+import json
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup
@@ -68,4 +70,12 @@ def menu_scraping():
                 j += 1
     return menu
 
-menu_scraping()
+menu = menu_scraping()
+d={'foodName':[], 'date':[], 'isLunch':[], 'place':[]}
+data_set = pd.DataFrame(data=d)
+for key1 in menu.keys():
+    for key2 in menu[key1].keys():
+        for item in menu[key1][key2]:
+            df2 = pd.DataFrame([[item, key1, key2]], columns=['foodName', 'date', 'isLunch', 'place'])
+            data_set.append(df2, ignore_index=True)
+result = data_set.to_json(orient="split")
