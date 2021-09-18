@@ -26,7 +26,7 @@
     appId: "1:371483673471:web:169be295bac547daac904a",
     measurementId: "G-44KBRM0SXN"
   };
-    firebase.initializeApp(firebaseConfig);
+
 
     var foodEntry = 0;
     function addItemtoList(name, day, meal, servery){
@@ -52,6 +52,7 @@
     }
 
     function fetchData(){
+      firebase.initializeApp(firebaseConfig);
       firebase.database().ref('data').once('value', function(snapshot){
         snapshot.forEach(
           function(ChildSnapshot){
