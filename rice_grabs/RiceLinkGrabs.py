@@ -82,24 +82,22 @@ def menu_scraping():
 menu = menu_scraping()
 
 def food_sort(menu):
-    d = {'foodName': [], 'date': [], 'isLunch': [], 'place': []}
+    d = {'foodName': [], 'date': [], 'place': [], 'isLunch': []}
     data_set = pd.DataFrame(data=d)
 
     for key1 in menu.keys():
         for key2 in menu[key1].keys():
             for key3 in menu[key1][key2].keys():
                 for item in menu[key1][key2][key3]:
-                    df2 = pd.DataFrame([[item, key1, key3, key2]], columns=['foodName', 'date', 'isLunch', 'place'])
+                    df2 = pd.DataFrame([[item, key1, key3, key2]], columns=['foodName', 'date', 'place', 'isLunch'])
                     data_set=pd.concat([data_set, df2], ignore_index=True)
-    result = data_set.to_json(orient="split")
-    json_file = open("food_sort.json", "w")
-    json_file.write(result)
+    json_data = data_set.to_json(orient='index')
+    json_file = open('data_2.json', 'w')
+    json_file.write(json_data)
     json_file.close()
 
 def general_menu_json(menu):
-    menu_json = json.dumps(menu, indent=1)
-    with open ('menu_json', 'w') as json_file:
-        json_file.write(menu_json)
-    json_file.close()
-
-general_menu_json(menu)
+        menu_json = json.dumps(menu, indent=1)
+        with open ('menu_json', 'w') as json_file:
+            json_file.write(menu_json)
+        json_file.close()

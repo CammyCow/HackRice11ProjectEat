@@ -1,0 +1,394 @@
+,foodName,date,isLunch,place
+0,Pasta Primavera,Monday,Baker Kitchen,lunch
+1,Turkey Meatballs in Marinara,Monday,Baker Kitchen,lunch
+2,Fish with Lemon Caper Vinaigrette,Monday,Baker Kitchen,lunch
+3,"Wild Rice, Quinoa & Kale",Monday,Baker Kitchen,lunch
+4,Curried Lentils,Monday,Baker Kitchen,lunch
+5,Fiesta Rice,Monday,North Servery,lunch
+6,Sweet & Sour Chicken Stir Fry,Monday,North Servery,lunch
+7,Tortilla Crusted Tilapia,Monday,North Servery,lunch
+8,Garbanzo Tomato Curry,Monday,North Servery,lunch
+9,Quinoa Medley with Kale,Monday,North Servery,lunch
+10,Tofu Stir Fry,Monday,North Servery,lunch
+11,Sundried Tomato & Broccoli Cheddar Pasta Bake,Monday,North Servery,lunch
+12,Pasta Primavera,Monday,Seibel Servery,lunch
+13,Spaghetti Squash with Broccoli & Red Peppers,Monday,Seibel Servery,lunch
+14,Turkey Meatballs in Marinara,Monday,Seibel Servery,lunch
+15,Sautéed Fish with Lemon Caper Vinaigrette,Monday,Seibel Servery,lunch
+16,"Wild Rice, Quinoa & Kale",Monday,Seibel Servery,lunch
+17,Curried Lentils,Monday,Seibel Servery,lunch
+18,"Chimichurri Chicken Breast
+",Monday,South Servery,lunch
+19,Roasted Potatoes,Monday,South Servery,lunch
+20,Spinach and Goat Cheese Timbales,Monday,South Servery,lunch
+21,Tortilla Crusted Tilapia with Avocado Relish,Monday,South Servery,lunch
+22,Roasted Red Pepper Chickpeas & Kale,Monday,South Servery,lunch
+23,"Green Chicken Pozole
+",Monday,South Servery,lunch
+24,Southwest Rice Pilaf,Monday,West Servery,lunch
+25,Chicken with Ancho Cream Sauce,Monday,West Servery,lunch
+26,Smoked Sausage with Peppers and Onions,Monday,West Servery,lunch
+27,Whole Grain Red Quinoa with Kale and Cranberry,Monday,West Servery,lunch
+28,Cheese Tortellini with Tomato and Basil,Monday,West Servery,lunch
+29,Bacon Ranch Pizza,Monday,West Servery,lunch
+30,Margarita Pizza,Monday,West Servery,lunch
+31,Vegetable Fried Rice,Monday,Baker Kitchen,dinner
+32,Stir-fried Snap Peas & Mushrooms,Monday,Baker Kitchen,dinner
+33,Fish Yellow Curry,Monday,Baker Kitchen,dinner
+34,Coconut Sweet Chili Chicken,Monday,Baker Kitchen,dinner
+35,Eggplant Bean Balsamico,Monday,Baker Kitchen,dinner
+36,Pesto Cream Tortellini,Monday,Baker Kitchen,dinner
+37,Fettuccini Pasta,Monday,North Servery,dinner
+38,Chicken Spinach Alfredo,Monday,North Servery,dinner
+39,Italian Pork Meatballs with Marinara,Monday,North Servery,dinner
+40,Italian Roasted Tempeh Succotash,Monday,North Servery,dinner
+41,Barbecue Jackfruit,Monday,North Servery,dinner
+42,Cheese Stuffed Tortellini with Pesto,Monday,North Servery,dinner
+43,Garlic Herb Breadsticks with Dipping Sauce,Monday,North Servery,dinner
+44,Vegetable Fried Rice,Monday,Seibel Servery,dinner
+45,Stir-fried Snap Peas & Mushrooms,Monday,Seibel Servery,dinner
+46,Fish Yellow Curry,Monday,Seibel Servery,dinner
+47,Coconut Sweet Chili Chicken,Monday,Seibel Servery,dinner
+48,Eggplant Bean Balsamico,Monday,Seibel Servery,dinner
+49,Pesto Cream Tortellini,Monday,Seibel Servery,dinner
+50,Basmati Rice,Monday,South Servery,dinner
+51,"Tandoori Spiced Chicken
+",Monday,South Servery,dinner
+52,Broiled Swai Fillet & Pineapple Pico,Monday,South Servery,dinner
+53,Saag Tofu,Monday,South Servery,dinner
+54,"Roasted Tempeh, Crispy Green Beans with Spicy Garlic",Monday,South Servery,dinner
+55,Jasmine Rice,Monday,West Servery,dinner
+56,Honey Soy Glazed Chicken ,Monday,West Servery,dinner
+57,Pork Loin Roast with Spicy Sweet and Sour Sauce,Monday,West Servery,dinner
+58,Grilled Tofu with Ginger Sesame Soy,Monday,West Servery,dinner
+59,Chick Pea Curry Masala,Monday,West Servery,dinner
+60,"CLOSED
+",Tuesday,Baker Kitchen,lunch
+61,Steamed Rice,Tuesday,North Servery,lunch
+62,Gochujang Beef Tostadas,Tuesday,North Servery,lunch
+63,"Honey Lime Roasted Chicken Legs
+",Tuesday,North Servery,lunch
+64,Charro Beans,Tuesday,North Servery,lunch
+65,Plant-based PAOW & Cauliflower Gratin,Tuesday,North Servery,lunch
+66,Quinoa Garbanzo Patty with Sundried Tomato Relish,Tuesday,North Servery,lunch
+67,Smoked Gouda Pasta Bake,Tuesday,North Servery,lunch
+68,Basmati Rice,Tuesday,Seibel Servery,lunch
+69,Balsamic Roasted Mushrooms,Tuesday,Seibel Servery,lunch
+70,Coconut Tomato Curry Beef,Tuesday,Seibel Servery,lunch
+71,Chicken Marinara Mozzarella Sandwich,Tuesday,Seibel Servery,lunch
+72,Cauliflower PAOW Gratin,Tuesday,Seibel Servery,lunch
+73,Quinoa Chickpea Patty with Tomato Relish,Tuesday,Seibel Servery,lunch
+74,Spinach Mushroom Quiche,Tuesday,Seibel Servery,lunch
+75,"Italian Spicy Pork Sausage
+",Tuesday,South Servery,lunch
+76,Roasted Mushroom and Basil Spaghetti in Cream Sauce,Tuesday,South Servery,lunch
+77,Parmesan Chicken ,Tuesday,South Servery,lunch
+78,Lentil and Corn Stew,Tuesday,South Servery,lunch
+79,Margherita Grilled Cheese Sandwich,Tuesday,South Servery,lunch
+80,S'mores Pizza,Tuesday,South Servery,lunch
+81,Corn Chowder,Tuesday,South Servery,lunch
+82,Chicken Pesto Mayo Sandwich,Tuesday,West Servery,lunch
+83,Seasoned Steak Fries,Tuesday,West Servery,lunch
+84,Tilapia Gratinata,Tuesday,West Servery,lunch
+85,Rice Cheddar Broccoli,Tuesday,West Servery,lunch
+86,Tofu Tomato Coconut Curry,Tuesday,West Servery,lunch
+87,Buffalo Chicken with Blue Cheese Pizza,Tuesday,West Servery,lunch
+88,Artichoke Sundried Tomato Pesto Pizza,Tuesday,West Servery,lunch
+89,Coconut Mango Rice,Tuesday,Baker Kitchen,dinner
+90,Black Beans with Plantains,Tuesday,Baker Kitchen,dinner
+91,Fish with Tropical Fruit Salsa,Tuesday,Baker Kitchen,dinner
+92,Chimichurri Pork Tenderloin,Tuesday,Baker Kitchen,dinner
+93,Hoisin Tofu & Broccoli,Tuesday,Baker Kitchen,dinner
+94,"Creamy Mushroom, Kale Pasta",Tuesday,Baker Kitchen,dinner
+95,Barbecue Steak Fries,Tuesday,North Servery,dinner
+96,Blackened Catfish with Lemon Vinaigrette,Tuesday,North Servery,dinner
+97,Chicken Cordon Bleu,Tuesday,North Servery,dinner
+98,Vegetable Eggrolls,Tuesday,North Servery,dinner
+99,Saffron Basmati Rice,Tuesday,North Servery,dinner
+100,Hoisin Tofu & Broccoli,Tuesday,North Servery,dinner
+101,Creamy Mushroom Kale Pasta,Tuesday,North Servery,dinner
+102,Coconut Mango Rice,Tuesday,Seibel Servery,dinner
+103,Black Beans with Plantains,Tuesday,Seibel Servery,dinner
+104,Fish with Tropical Fruit Salsa,Tuesday,Seibel Servery,dinner
+105,Chimichurri Pork Tenderloin,Tuesday,Seibel Servery,dinner
+106,Hoisin Tofu & Broccoli,Tuesday,Seibel Servery,dinner
+107,"Creamy Mushroom, Kale Pasta",Tuesday,Seibel Servery,dinner
+108,Garlic Mashed Potatoes,Tuesday,South Servery,dinner
+109,"Beef Bourguignon
+",Tuesday,South Servery,dinner
+110,Lemon Pepper Tilapia with Mandarin Orange Relish,Tuesday,South Servery,dinner
+111,PAOW and Vegetable Fried Rice,Tuesday,South Servery,dinner
+112,BBQ  Smoked Tofu & Roasted Sweet Potatoes,Tuesday,South Servery,dinner
+113,Haricots Verts & Roasted Mushrooms,Tuesday,South Servery,dinner
+114,Penne Pesto,Tuesday,West Servery,dinner
+115,Chicken Carbonara with Bacon,Tuesday,West Servery,dinner
+116,Fish with Fresh Pineapple Salsa,Tuesday,West Servery,dinner
+117,Eggplant Mushroom Ragout,Tuesday,West Servery,dinner
+118,Rice Tomato Curry with Tofu,Tuesday,West Servery,dinner
+119,Green Chile Chicken Lasagna,Wednesday,Baker Kitchen,lunch
+120,Steak Fries,Wednesday,Baker Kitchen,lunch
+121,Italian Beef Sandwich,Wednesday,Baker Kitchen,lunch
+122,Red Beans & Butternut Squash,Wednesday,Baker Kitchen,lunch
+123,Southwest Corn & Bean Wrap,Wednesday,Baker Kitchen,lunch
+124,Spaghetti Pasta,Wednesday,North Servery,lunch
+125,"Italian Sausage Ragout
+",Wednesday,North Servery,lunch
+126,Wicked Wok Wings Wednesday,Wednesday,North Servery,lunch
+127,Garlic Cheddar Biscuits,Wednesday,North Servery,lunch
+128,Plant-based PAOW Tetrazzini,Wednesday,North Servery,lunch
+129,Tofu Curry Rice,Wednesday,North Servery,lunch
+130,Toasted Southwest Corn & Bean Wrap,Wednesday,North Servery,lunch
+131,Green Chile Chicken Lasagna,Wednesday,Seibel Servery,lunch
+132,Steak Fries,Wednesday,Seibel Servery,lunch
+133,Italian Beef Sandwich,Wednesday,Seibel Servery,lunch
+134,Red Beans & Butternut Squash,Wednesday,Seibel Servery,lunch
+135,Plant-based PAOW Tetrazzini,Wednesday,Seibel Servery,lunch
+136,Southwest Corn & Bean Wrap,Wednesday,Seibel Servery,lunch
+137,Thai Style Red Coconut Shrimp,Wednesday,South Servery,lunch
+138,Steamed Rice,Wednesday,South Servery,lunch
+139,"Sweet and Spicy Shicken with Pickled Vegetables
+",Wednesday,South Servery,lunch
+140,Orange Crispy Cauliflower,Wednesday,South Servery,lunch
+141,Sesame Ginger Tempeh with Fried Carrots and Cilantro,Wednesday,South Servery,lunch
+142,Green Tea Late,Wednesday,South Servery,lunch
+143,Mexican Style Chicken Lasagna,Wednesday,West Servery,lunch
+144,Rice Corn and Tofu,Wednesday,West Servery,lunch
+145,Pork Tenderloin with Tropical Relish,Wednesday,West Servery,lunch
+146,Spinach Parmesan Gnocchi,Wednesday,West Servery,lunch
+147,Black Bean and Plantains,Wednesday,West Servery,lunch
+148,Prosciutto Spinach Pizza,Wednesday,West Servery,lunch
+149,Zucchini Feta Pizza,Wednesday,West Servery,lunch
+150,Spanish Rice,Wednesday,Baker Kitchen,dinner
+151,"Roasted Eggplant, Green Bean & Tomato Ragu",Wednesday,Baker Kitchen,dinner
+152,Braised Beef Guisada,Wednesday,Baker Kitchen,dinner
+153,Cheddar Chive & Potato Crusted Cod,Wednesday,Baker Kitchen,dinner
+154,Southwest Cheddar Potato,Wednesday,Baker Kitchen,dinner
+155,Blackened Tofu with Pico de Gallo,Wednesday,Baker Kitchen,dinner
+156,Southwest Mac & Cheese,Wednesday,North Servery,dinner
+157,"Barbecue Smoked Sausage
+",Wednesday,North Servery,dinner
+158,"Beer Can Roasted Chicken
+",Wednesday,North Servery,dinner
+159,Baked Beans,Wednesday,North Servery,dinner
+160,Edamame Fried Rice,Wednesday,North Servery,dinner
+161,Crispy Buffalo Tofu,Wednesday,North Servery,dinner
+162,Crispy Fried Corn Nuggets,Wednesday,North Servery,dinner
+163,Spanish Rice,Wednesday,Seibel Servery,dinner
+164,"Roasted Eggplant, Green Bean & Tomato Ragu",Wednesday,Seibel Servery,dinner
+165,Braised Beef Guisada,Wednesday,Seibel Servery,dinner
+166,Fish Veracruz,Wednesday,Seibel Servery,dinner
+167,BBQ Jackfruit & Corn Stuffed Peppers,Wednesday,Seibel Servery,dinner
+168,Blackened Tofu with Pico de Gallo,Wednesday,Seibel Servery,dinner
+169,Southwest Cheddar Potato Casserole,Wednesday,Seibel Servery,dinner
+170,Wild Rice Pilaf,Wednesday,South Servery,dinner
+171,Smoked Red Fish with Grapefruit Vinaigrette,Wednesday,South Servery,dinner
+172,Chicken Gumbo,Wednesday,South Servery,dinner
+173,Braised Jackfruit & Vegetable Bean Chili,Wednesday,South Servery,dinner
+174,Cheese Manicotti with Creamy Marinara,Wednesday,South Servery,dinner
+175,Mashed Potatoes,Wednesday,West Servery,dinner
+176,Grilled Beef Flank Steak ,Wednesday,West Servery,dinner
+177,Seafood Cakes,Wednesday,West Servery,dinner
+178,Pasta Alfredo,Wednesday,West Servery,dinner
+179,Bean Tofu Quinoa Rice Medley,Wednesday,West Servery,dinner
+180,Garlicky Chickpea Rice with Broccoli,Thursday,Baker Kitchen,lunch
+181,Asparagus & Red Peppers,Thursday,Baker Kitchen,lunch
+182,Chicken Butternut Tagine,Thursday,Baker Kitchen,lunch
+183,Fish Romesco,Thursday,Baker Kitchen,lunch
+184,Plant-based Meatball Teriyaki,Thursday,Baker Kitchen,lunch
+185,Sun-dried Tomato Mushroom Baked Pasta,Thursday,Baker Kitchen,lunch
+186,Broccoli Cheddar Rice,Thursday,North Servery,lunch
+187,Garlic Ginger Pork,Thursday,North Servery,lunch
+188,Crispy Fried Flounder,Thursday,North Servery,lunch
+189,Eggplant Ratatouille,Thursday,North Servery,lunch
+190,Lentils with Butternut Squash,Thursday,North Servery,lunch
+191,Plant-based Teriyaki Meatballs,Thursday,North Servery,lunch
+192,Vegetable Lasagna,Thursday,North Servery,lunch
+193,Garlicky Chickpea Rice with Broccoli,Thursday,Seibel Servery,lunch
+194,Asparagus & Red Peppers,Thursday,Seibel Servery,lunch
+195,Chicken Butternut Tagine,Thursday,Seibel Servery,lunch
+196,Cheddar Chive Potato Crusted Chicken,Thursday,Seibel Servery,lunch
+197,Edamame Noodle Bowl,Thursday,Seibel Servery,lunch
+198,Plant-based Meatball Teriyaki,Thursday,Seibel Servery,lunch
+199,Sun-dried Tomato Mushroom Baked Pasta,Thursday,Seibel Servery,lunch
+200,Monte Cristo Sandwich,Thursday,South Servery,lunch
+201,Wedge Potatoes & Cilantro Lime Eggless Aioli,Thursday,South Servery,lunch
+202,Sweet and Sour Tofu with Pineapple Peppers and Onions,Thursday,South Servery,lunch
+203,Grilled Chicken Breast with Lemon Vinaigrette,Thursday,South Servery,lunch
+204,Herb Roasted Vegetables,Thursday,South Servery,lunch
+205,Italian Wedding Soup,Thursday,South Servery,lunch
+206,Steamed Rice,Thursday,West Servery,lunch
+207,Thai Red Curry Chicken,Thursday,West Servery,lunch
+208,Fish with Coconut Curry ,Thursday,West Servery,lunch
+209,Herb Parmesan Potato Croquettes,Thursday,West Servery,lunch
+210,Eggplant Hoisin with Peppers and Onions,Thursday,West Servery,lunch
+211,BBQ Chicken Pizza,Thursday,West Servery,lunch
+212,Black Bean Tostada Pizza with Chipotle Crema,Thursday,West Servery,lunch
+213,Jasmine Rice,Thursday,Baker Kitchen,dinner
+214,Smoked Pork Ribs,Thursday,Baker Kitchen,dinner
+215,Orange Chicken,Thursday,Baker Kitchen,dinner
+216,Red Beans & Rice,Thursday,Baker Kitchen,dinner
+217,Chik'n Enchiladas with Poblano Cream Sauce,Thursday,Baker Kitchen,dinner
+218,Mashed Potatoes,Thursday,North Servery,dinner
+219,Fried Chicken and Waffles,Thursday,North Servery,dinner
+220,Lemon Garlic Swai Fillets,Thursday,North Servery,dinner
+221,Crispy Fried Okra,Thursday,North Servery,dinner
+222,Red Beans & Rice,Thursday,North Servery,dinner
+223,Roasted Tempeh & Portobellos with Chimichurri,Thursday,North Servery,dinner
+224,Cheese Enchiladas with Poblano Cream,Thursday,North Servery,dinner
+225,Jasmine Rice,Thursday,Seibel Servery,dinner
+226,Sauteed Cabbage & Green Beans,Thursday,Seibel Servery,dinner
+227,Smoked Pork Ribs,Thursday,Seibel Servery,dinner
+228,Orange Chicken,Thursday,Seibel Servery,dinner
+229,Red Beans & Rice,Thursday,Seibel Servery,dinner
+230,Chimichurri Tempeh,Thursday,Seibel Servery,dinner
+231,Chik'n Enchiladas with Poblano Cream Sauce,Thursday,Seibel Servery,dinner
+232,Steamed Jasmine Rice,Thursday,South Servery,dinner
+233,Korean Style Beef and Pork Meatballs,Thursday,South Servery,dinner
+234,"Grilled Chicken Thighs, Sesame Soy Vinaigrette",Thursday,South Servery,dinner
+235,Hoisin Eggplant,Thursday,South Servery,dinner
+236,Crispy Fried Eggrolls with Spicy Dipping Sauce,Thursday,South Servery,dinner
+237,Roasted Green Chile Rice,Thursday,West Servery,dinner
+238,Grilled Southwest Beef Steaks,Thursday,West Servery,dinner
+239,Fiesta Chicken with Cheddar Sauce,Thursday,West Servery,dinner
+240,Pinto Bean ,Thursday,West Servery,dinner
+241,Southwest Potato Casserole,Thursday,West Servery,dinner
+242,Herb Roasted Potatoes,Friday,Baker Kitchen,lunch
+243,Chicken & Dumplings,Friday,Baker Kitchen,lunch
+244,Fish with Roasted Tomatoes & Onions,Friday,Baker Kitchen,lunch
+245,Cranberry Kale Quinoa,Friday,Baker Kitchen,lunch
+246,Vegetable Lasagna,Friday,Baker Kitchen,lunch
+247,Greek Spinach Rice,Friday,North Servery,lunch
+248,Portuguese Style Shrimp Turnover,Friday,North Servery,lunch
+249,Grilled Chicken with Feta Olive Relish,Friday,North Servery,lunch
+250,Simmered Black Beans & Plantains,Friday,North Servery,lunch
+251,Plant-based Corn & Sausage Casserole,Friday,North Servery,lunch
+252,Coconut Thai Tofu & Sweet Potatoes,Friday,North Servery,lunch
+253,Pepper Jack Mushroom & Kale Frittata,Friday,North Servery,lunch
+254,Herb Roasted Potatoes,Friday,Seibel Servery,lunch
+255,Haricots Verts & Mushrooms,Friday,Seibel Servery,lunch
+256,Chicken & Dumplings,Friday,Seibel Servery,lunch
+257,Fish with Roasted Tomatoes & Onions,Friday,Seibel Servery,lunch
+258,Cranberry Kale Quinoa,Friday,Seibel Servery,lunch
+259,Coconut Thai Chili Tofu & Sweet Potato,Friday,Seibel Servery,lunch
+260,Spinach Alfredo Lasagna,Friday,Seibel Servery,lunch
+261,Chicken Fried Steak with Creamy Gravy,Friday,South Servery,lunch
+262,Mashed Potatoes,Friday,South Servery,lunch
+263,Vegetable Stuffed Basa Fillet with Citrus Vinaigrette,Friday,South Servery,lunch
+264,Pesto Pasta with Spinach and Roasted Tomatoes,Friday,South Servery,lunch
+265,Edamame Hummus and Baked Cauliflower Toasts,Friday,South Servery,lunch
+266,Herb Roasted Potatoes,Friday,West Servery,lunch
+267,Battered Cod Fish with Tartar Sauce,Friday,West Servery,lunch
+268,Chicken Tika Masala,Friday,West Servery,lunch
+269,Rice Tofu Mango,Friday,West Servery,lunch
+270,Pasta Primavera with Fresh Mozzarella,Friday,West Servery,lunch
+271,Jalapeno Bacon Poppers Pizza,Friday,West Servery,lunch
+272,Vegetable Supreme Pizza,Friday,West Servery,lunch
+273,Steamed Rice,Friday,North Servery,dinner
+274,Honey Sriracha Chicken Thighs,Friday,North Servery,dinner
+275,Spanish Style Fisherman's Stew,Friday,North Servery,dinner
+276,Slow Simmered Black-eyed Peas & Okra,Friday,North Servery,dinner
+277,Plant-based PAOW Fried Rice,Friday,North Servery,dinner
+278,Baked Pasta Florentine,Friday,North Servery,dinner
+279,Crispy Macaroni & Cheese Wedges,Friday,North Servery,dinner
+280,Macaroni & Cheese,Friday,North Servery,dinner
+281,Tropical Coconut Rice,Friday,Seibel Servery,dinner
+282,Calabasa Corn Succotash,Friday,Seibel Servery,dinner
+283,Chile Lime Smoked Chicken,Friday,Seibel Servery,dinner
+284,Salmon with Pineapple Salsa,Friday,Seibel Servery,dinner
+285,"Tofu, Potato & Okra Ragu",Friday,Seibel Servery,dinner
+286,Baked Pasta Florentine,Friday,Seibel Servery,dinner
+287,Garlic and Herb Tossed Baby Potatoes,Friday,South Servery,dinner
+288,Broiled cod topped with White Wine Cream Shrimp Sauce,Friday,South Servery,dinner
+289,"Baked Chicken, Red Pepper and Parsley Vinaigrette
+",Friday,South Servery,dinner
+290,Tuscan Northern Bean and Spinach Stew,Friday,South Servery,dinner
+291,Stuffed Shells with Creamy Marinara Sauce,Friday,South Servery,dinner
+292,Rice Pilaf,Friday,West Servery,dinner
+293,Pot Crusted Cod Fish,Friday,West Servery,dinner
+294,Chicken with Jalapeno Corn Salsa,Friday,West Servery,dinner
+295,Baked Pasta with Ricotta,Friday,West Servery,dinner
+296,Navy Bean Carrot Potato Stew,Friday,West Servery,dinner
+297,Cilantro Rice,Saturday,Baker Kitchen,lunch
+298,Pinto Beans,Saturday,Baker Kitchen,lunch
+299,Sweet Chili Chicken,Saturday,Baker Kitchen,lunch
+300,Beef Barbacoa,Saturday,Baker Kitchen,lunch
+301,Tofu with Mango Salsa,Saturday,Baker Kitchen,lunch
+302,Plant-based Picadillo,Saturday,Baker Kitchen,lunch
+303,Cheese Ravioli,Saturday,Baker Kitchen,lunch
+304,Cilantro Lime Rice,Saturday,North Servery,lunch
+305,"Beef Barbacoa
+",Saturday,North Servery,lunch
+306,Sweet Chili Chicken,Saturday,North Servery,lunch
+307,Pinto Beans,Saturday,North Servery,lunch
+308,Plant-based Picadillo,Saturday,North Servery,lunch
+309,Tofu Mango Rice,Saturday,North Servery,lunch
+310,Cheese Enchiladas,Saturday,North Servery,lunch
+311,Cilantro Rice,Saturday,Seibel Servery,lunch
+312,Pinto Beans,Saturday,Seibel Servery,lunch
+313,Sweet Chili Chicken,Saturday,Seibel Servery,lunch
+314,Beef Barbacoa,Saturday,Seibel Servery,lunch
+315,Tofu with Mango Salsa,Saturday,Seibel Servery,lunch
+316,Plant-based Picadillo,Saturday,Seibel Servery,lunch
+317,Cheese Ravioli,Saturday,Seibel Servery,lunch
+318,Macaroni & Cheese,Saturday,Baker Kitchen,dinner
+319,Honey Buffalo Chicken,Saturday,Baker Kitchen,dinner
+320,Barbecue Pork,Saturday,Baker Kitchen,dinner
+321,Black-eyed Pea Rice,Saturday,Baker Kitchen,dinner
+322,"Navy Bean, Carrot & Kale",Saturday,Baker Kitchen,dinner
+323,PAOW Snap Pea Stir-fry,Saturday,Baker Kitchen,dinner
+324,"Barbecue Pulled Pork
+",Saturday,North Servery,dinner
+325,Honey Buffalo Chicken,Saturday,North Servery,dinner
+326,Wild Rice Pilaf,Saturday,North Servery,dinner
+327,PAOW & Sugar Snap Stir Fry,Saturday,North Servery,dinner
+328,Navy Beans with Carrots and Kale,Saturday,North Servery,dinner
+329,Macaroni & Cheese,Saturday,Seibel Servery,dinner
+330,Honey Buffalo Chicken,Saturday,Seibel Servery,dinner
+331,Barbecue Pork,Saturday,Seibel Servery,dinner
+332,Black-eyed Pea Rice,Saturday,Seibel Servery,dinner
+333,"Navy Bean, Carrot & Kale",Saturday,Seibel Servery,dinner
+334,PAOW Snap Pea Stir-fry,Saturday,Seibel Servery,dinner
+335,"dinner available at North and Seibel serveries
+",Saturday,West Servery,dinner
+336,Fiesta Rice,Sunday,Seibel Servery,lunch
+337,Texas Ranchero Beans,Sunday,Seibel Servery,lunch
+338,Cilantro Lime Vinaigrette Fish,Sunday,Seibel Servery,lunch
+339,"Grilled Chicken with Roasted Corn Salsa
+",Sunday,Seibel Servery,lunch
+340,Three Pepper Tofu with Plum Sauce,Sunday,Seibel Servery,lunch
+341,Tomato Pesto Cauliflower Flatbread,Sunday,Seibel Servery,lunch
+342,Kale Mushroom Frittata,Sunday,Seibel Servery,lunch
+343,Cheese and Chipotle Migas,Sunday,South Servery,lunch
+344,Shredded Beef Chilaquiles con Queso,Sunday,South Servery,lunch
+345,Fried Chicken Cutlets,Sunday,South Servery,lunch
+346,Belgian Waffles,Sunday,South Servery,lunch
+347,Fresh Vegetables,Sunday,South Servery,lunch
+348,Mac and Cheese,Sunday,West Servery,lunch
+349,BBQ Chopped Beef,Sunday,West Servery,lunch
+350,Chicken Dumplings with Sesame Ginger Soy,Sunday,West Servery,lunch
+351,Fried Rice with Tofu,Sunday,West Servery,lunch
+352,Grilled Chicken ,Sunday,West Servery,lunch
+353,Steamed Basmati Rice,Sunday,North Servery,dinner
+354,Butter Chicken Thighs,Sunday,North Servery,dinner
+355,Cod Fish Vindaloo,Sunday,North Servery,dinner
+356,Potato & Tempeh Curry,Sunday,North Servery,dinner
+357,Simmered Lentils Cauliflower & Spinach,Sunday,North Servery,dinner
+358,Ricotta Stuffed Shells,Sunday,North Servery,dinner
+359,Warm Naan Bread Dippers,Sunday,North Servery,dinner
+360,Steamed Rice,Sunday,Seibel Servery,dinner
+361,Honey Sriracha Shrimp,Sunday,Seibel Servery,dinner
+362,Beef in Mushroom Demi Glace,Sunday,Seibel Servery,dinner
+363,Tempeh Potato Masala,Sunday,Seibel Servery,dinner
+364,Thai Chili Tofu,Sunday,Seibel Servery,dinner
+365,Ricotta Stuffed Shells,Sunday,Seibel Servery,dinner
+366,Cheese Roasted Red Potatoes,Sunday,South Servery,dinner
+367,"Chipotle BBQ Glazed Smoked Chicken
+",Sunday,South Servery,dinner
+368,Creole Shrimp Tomato Ragout,Sunday,South Servery,dinner
+369,Tofu and Corn Succotash,Sunday,South Servery,dinner
+370,Baked Ricotta Pasta,Sunday,South Servery,dinner
+371,Wild Rice,Sunday,West Servery,dinner
+372,Chicken Alfredo with Mushroom,Sunday,West Servery,dinner
+373,Shrimp with Spicy Sweet and Sour Sauce,Sunday,West Servery,dinner
+374,Pasta Pesto with Sundried Tomato,Sunday,West Servery,dinner
+375,Bean Tofu with Fresh Salsa Verde,Sunday,West Servery,dinner
