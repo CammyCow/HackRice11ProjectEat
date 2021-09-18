@@ -1,0 +1,553 @@
+{
+ "Monday": {
+  "lunch": {
+   "Baker Kitchen": [
+    "Pasta Primavera",
+    "Turkey Meatballs in Marinara",
+    "Fish with Lemon Caper Vinaigrette",
+    "Wild Rice, Quinoa & Kale",
+    "Curried Lentils"
+   ],
+   "North Servery": [
+    "Fiesta Rice",
+    "Sweet & Sour Chicken Stir Fry",
+    "Tortilla Crusted Tilapia",
+    "Garbanzo Tomato Curry",
+    "Quinoa Medley with Kale",
+    "Tofu Stir Fry",
+    "Sundried Tomato & Broccoli Cheddar Pasta Bake"
+   ],
+   "Seibel Servery": [
+    "Pasta Primavera",
+    "Spaghetti Squash with Broccoli & Red Peppers",
+    "Turkey Meatballs in Marinara",
+    "Saut\u00e9ed Fish with Lemon Caper Vinaigrette",
+    "Wild Rice, Quinoa & Kale",
+    "Curried Lentils"
+   ],
+   "South Servery": [
+    "Chimichurri Chicken Breast\n",
+    "Roasted Potatoes",
+    "Spinach and Goat Cheese Timbales",
+    "Tortilla Crusted Tilapia with Avocado Relish",
+    "Roasted Red Pepper Chickpeas & Kale",
+    "Green Chicken Pozole\n"
+   ],
+   "West Servery": [
+    "Southwest Rice Pilaf",
+    "Chicken with Ancho Cream Sauce",
+    "Smoked Sausage with Peppers and Onions",
+    "Whole Grain Red Quinoa with Kale and Cranberry",
+    "Cheese Tortellini with Tomato and Basil",
+    "Bacon Ranch Pizza",
+    "Margarita Pizza"
+   ]
+  },
+  "dinner": {
+   "Baker Kitchen": [
+    "Vegetable Fried Rice",
+    "Stir-fried Snap Peas & Mushrooms",
+    "Fish Yellow Curry",
+    "Coconut Sweet Chili Chicken",
+    "Eggplant Bean Balsamico",
+    "Pesto Cream Tortellini"
+   ],
+   "North Servery": [
+    "Fettuccini Pasta",
+    "Chicken Spinach Alfredo",
+    "Italian Pork Meatballs with Marinara",
+    "Italian Roasted Tempeh Succotash",
+    "Barbecue Jackfruit",
+    "Cheese Stuffed Tortellini with Pesto",
+    "Garlic Herb Breadsticks with Dipping Sauce"
+   ],
+   "Seibel Servery": [
+    "Vegetable Fried Rice",
+    "Stir-fried Snap Peas & Mushrooms",
+    "Fish Yellow Curry",
+    "Coconut Sweet Chili Chicken",
+    "Eggplant Bean Balsamico",
+    "Pesto Cream Tortellini"
+   ],
+   "South Servery": [
+    "Basmati Rice",
+    "Tandoori Spiced Chicken\n",
+    "Broiled Swai Fillet & Pineapple Pico",
+    "Saag Tofu",
+    "Roasted Tempeh, Crispy Green Beans with Spicy Garlic"
+   ],
+   "West Servery": [
+    "Jasmine Rice",
+    "Honey Soy Glazed Chicken ",
+    "Pork Loin Roast with Spicy Sweet and Sour Sauce",
+    "Grilled Tofu with Ginger Sesame Soy",
+    "Chick Pea Curry Masala"
+   ]
+  }
+ },
+ "Tuesday": {
+  "lunch": {
+   "Baker Kitchen": [
+    "CLOSED\n"
+   ],
+   "North Servery": [
+    "Steamed Rice",
+    "Gochujang Beef Tostadas",
+    "Honey Lime Roasted Chicken Legs\n",
+    "Charro Beans",
+    "Plant-based PAOW & Cauliflower Gratin",
+    "Quinoa Garbanzo Patty with Sundried Tomato Relish",
+    "Smoked Gouda Pasta Bake"
+   ],
+   "Seibel Servery": [
+    "Basmati Rice",
+    "Balsamic Roasted Mushrooms",
+    "Coconut Tomato Curry Beef",
+    "Chicken Marinara Mozzarella Sandwich",
+    "Cauliflower PAOW Gratin",
+    "Quinoa Chickpea Patty with Tomato Relish",
+    "Spinach Mushroom Quiche"
+   ],
+   "South Servery": [
+    "Italian Spicy Pork Sausage\n",
+    "Roasted Mushroom and Basil Spaghetti in Cream Sauce",
+    "Parmesan Chicken ",
+    "Lentil and Corn Stew",
+    "Margherita Grilled Cheese Sandwich",
+    "S'mores Pizza",
+    "Corn Chowder"
+   ],
+   "West Servery": [
+    "Chicken Pesto Mayo Sandwich",
+    "Seasoned Steak Fries",
+    "Tilapia Gratinata",
+    "Rice Cheddar Broccoli",
+    "Tofu Tomato Coconut Curry",
+    "Buffalo Chicken with Blue Cheese Pizza",
+    "Artichoke Sundried Tomato Pesto Pizza"
+   ]
+  },
+  "dinner": {
+   "Baker Kitchen": [
+    "Coconut Mango Rice",
+    "Black Beans with Plantains",
+    "Fish with Tropical Fruit Salsa",
+    "Chimichurri Pork Tenderloin",
+    "Hoisin Tofu & Broccoli",
+    "Creamy Mushroom, Kale Pasta"
+   ],
+   "North Servery": [
+    "Barbecue Steak Fries",
+    "Blackened Catfish with Lemon Vinaigrette",
+    "Chicken Cordon Bleu",
+    "Vegetable Eggrolls",
+    "Saffron Basmati Rice",
+    "Hoisin Tofu & Broccoli",
+    "Creamy Mushroom Kale Pasta"
+   ],
+   "Seibel Servery": [
+    "Coconut Mango Rice",
+    "Black Beans with Plantains",
+    "Fish with Tropical Fruit Salsa",
+    "Chimichurri Pork Tenderloin",
+    "Hoisin Tofu & Broccoli",
+    "Creamy Mushroom, Kale Pasta"
+   ],
+   "South Servery": [
+    "Garlic Mashed Potatoes",
+    "Beef Bourguignon\n",
+    "Lemon Pepper Tilapia with Mandarin Orange Relish",
+    "PAOW and Vegetable Fried Rice",
+    "BBQ  Smoked Tofu & Roasted Sweet Potatoes",
+    "Haricots Verts & Roasted Mushrooms"
+   ],
+   "West Servery": [
+    "Penne Pesto",
+    "Chicken Carbonara with Bacon",
+    "Fish with Fresh Pineapple Salsa",
+    "Eggplant Mushroom Ragout",
+    "Rice Tomato Curry with Tofu"
+   ]
+  }
+ },
+ "Wednesday": {
+  "lunch": {
+   "Baker Kitchen": [
+    "Green Chile Chicken Lasagna",
+    "Steak Fries",
+    "Italian Beef Sandwich",
+    "Red Beans & Butternut Squash",
+    "Southwest Corn & Bean Wrap"
+   ],
+   "North Servery": [
+    "Spaghetti Pasta",
+    "Italian Sausage Ragout\n",
+    "Wicked Wok Wings Wednesday",
+    "Garlic Cheddar Biscuits",
+    "Plant-based PAOW Tetrazzini",
+    "Tofu Curry Rice",
+    "Toasted Southwest Corn & Bean Wrap"
+   ],
+   "Seibel Servery": [
+    "Green Chile Chicken Lasagna",
+    "Steak Fries",
+    "Italian Beef Sandwich",
+    "Red Beans & Butternut Squash",
+    "Plant-based PAOW Tetrazzini",
+    "Southwest Corn & Bean Wrap"
+   ],
+   "South Servery": [
+    "Thai Style Red Coconut Shrimp",
+    "Steamed Rice",
+    "Sweet and Spicy Shicken with Pickled Vegetables\n",
+    "Orange Crispy Cauliflower",
+    "Sesame Ginger Tempeh with Fried Carrots and Cilantro",
+    "Green Tea Late"
+   ],
+   "West Servery": [
+    "Mexican Style Chicken Lasagna",
+    "Rice Corn and Tofu",
+    "Pork Tenderloin with Tropical Relish",
+    "Spinach Parmesan Gnocchi",
+    "Black Bean and Plantains",
+    "Prosciutto Spinach Pizza",
+    "Zucchini Feta Pizza"
+   ]
+  },
+  "dinner": {
+   "Baker Kitchen": [
+    "Spanish Rice",
+    "Roasted Eggplant, Green Bean & Tomato Ragu",
+    "Braised Beef Guisada",
+    "Cheddar Chive & Potato Crusted Cod",
+    "Southwest Cheddar Potato",
+    "Blackened Tofu with Pico de Gallo"
+   ],
+   "North Servery": [
+    "Southwest Mac & Cheese",
+    "Barbecue Smoked Sausage\n",
+    "Beer Can Roasted Chicken\n",
+    "Baked Beans",
+    "Edamame Fried Rice",
+    "Crispy Buffalo Tofu",
+    "Crispy Fried Corn Nuggets"
+   ],
+   "Seibel Servery": [
+    "Spanish Rice",
+    "Roasted Eggplant, Green Bean & Tomato Ragu",
+    "Braised Beef Guisada",
+    "Fish Veracruz",
+    "BBQ Jackfruit & Corn Stuffed Peppers",
+    "Blackened Tofu with Pico de Gallo",
+    "Southwest Cheddar Potato Casserole"
+   ],
+   "South Servery": [
+    "Wild Rice Pilaf",
+    "Smoked Red Fish with Grapefruit Vinaigrette",
+    "Chicken Gumbo",
+    "Braised Jackfruit & Vegetable Bean Chili",
+    "Cheese Manicotti with Creamy Marinara"
+   ],
+   "West Servery": [
+    "Mashed Potatoes",
+    "Grilled Beef Flank Steak ",
+    "Seafood Cakes",
+    "Pasta Alfredo",
+    "Bean Tofu Quinoa Rice Medley"
+   ]
+  }
+ },
+ "Thursday": {
+  "lunch": {
+   "Baker Kitchen": [
+    "Garlicky Chickpea Rice with Broccoli",
+    "Asparagus & Red Peppers",
+    "Chicken Butternut Tagine",
+    "Fish Romesco",
+    "Plant-based Meatball Teriyaki",
+    "Sun-dried Tomato Mushroom Baked Pasta"
+   ],
+   "North Servery": [
+    "Broccoli Cheddar Rice",
+    "Garlic Ginger Pork",
+    "Crispy Fried Flounder",
+    "Eggplant Ratatouille",
+    "Lentils with Butternut Squash",
+    "Plant-based Teriyaki Meatballs",
+    "Vegetable Lasagna"
+   ],
+   "Seibel Servery": [
+    "Garlicky Chickpea Rice with Broccoli",
+    "Asparagus & Red Peppers",
+    "Chicken Butternut Tagine",
+    "Cheddar Chive Potato Crusted Chicken",
+    "Edamame Noodle Bowl",
+    "Plant-based Meatball Teriyaki",
+    "Sun-dried Tomato Mushroom Baked Pasta"
+   ],
+   "South Servery": [
+    "Monte Cristo Sandwich",
+    "Wedge Potatoes & Cilantro Lime Eggless Aioli",
+    "Sweet and Sour Tofu with Pineapple Peppers and Onions",
+    "Grilled Chicken Breast with Lemon Vinaigrette",
+    "Herb Roasted Vegetables",
+    "Italian Wedding Soup"
+   ],
+   "West Servery": [
+    "Steamed Rice",
+    "Thai Red Curry Chicken",
+    "Fish with Coconut Curry ",
+    "Herb Parmesan Potato Croquettes",
+    "Eggplant Hoisin with Peppers and Onions",
+    "BBQ Chicken Pizza",
+    "Black Bean Tostada Pizza with Chipotle Crema"
+   ]
+  },
+  "dinner": {
+   "Baker Kitchen": [
+    "Jasmine Rice",
+    "Smoked Pork Ribs",
+    "Orange Chicken",
+    "Red Beans & Rice",
+    "Chik'n Enchiladas with Poblano Cream Sauce"
+   ],
+   "North Servery": [
+    "Mashed Potatoes",
+    "Fried Chicken and Waffles",
+    "Lemon Garlic Swai Fillets",
+    "Crispy Fried Okra",
+    "Red Beans & Rice",
+    "Roasted Tempeh & Portobellos with Chimichurri",
+    "Cheese Enchiladas with Poblano Cream"
+   ],
+   "Seibel Servery": [
+    "Jasmine Rice",
+    "Sauteed Cabbage & Green Beans",
+    "Smoked Pork Ribs",
+    "Orange Chicken",
+    "Red Beans & Rice",
+    "Chimichurri Tempeh",
+    "Chik'n Enchiladas with Poblano Cream Sauce"
+   ],
+   "South Servery": [
+    "Steamed Jasmine Rice",
+    "Korean Style Beef and Pork Meatballs",
+    "Grilled Chicken Thighs, Sesame Soy Vinaigrette",
+    "Hoisin Eggplant",
+    "Crispy Fried Eggrolls with Spicy Dipping Sauce"
+   ],
+   "West Servery": [
+    "Roasted Green Chile Rice",
+    "Grilled Southwest Beef Steaks",
+    "Fiesta Chicken with Cheddar Sauce",
+    "Pinto Bean ",
+    "Southwest Potato Casserole"
+   ]
+  }
+ },
+ "Friday": {
+  "lunch": {
+   "Baker Kitchen": [
+    "Herb Roasted Potatoes",
+    "Chicken & Dumplings",
+    "Fish with Roasted Tomatoes & Onions",
+    "Cranberry Kale Quinoa",
+    "Vegetable Lasagna"
+   ],
+   "North Servery": [
+    "Greek Spinach Rice",
+    "Portuguese Style Shrimp Turnover",
+    "Grilled Chicken with Feta Olive Relish",
+    "Simmered Black Beans & Plantains",
+    "Plant-based Corn & Sausage Casserole",
+    "Coconut Thai Tofu & Sweet Potatoes",
+    "Pepper Jack Mushroom & Kale Frittata"
+   ],
+   "Seibel Servery": [
+    "Herb Roasted Potatoes",
+    "Haricots Verts & Mushrooms",
+    "Chicken & Dumplings",
+    "Fish with Roasted Tomatoes & Onions",
+    "Cranberry Kale Quinoa",
+    "Coconut Thai Chili Tofu & Sweet Potato",
+    "Spinach Alfredo Lasagna"
+   ],
+   "South Servery": [
+    "Chicken Fried Steak with Creamy Gravy",
+    "Mashed Potatoes",
+    "Vegetable Stuffed Basa Fillet with Citrus Vinaigrette",
+    "Pesto Pasta with Spinach and Roasted Tomatoes",
+    "Edamame Hummus and Baked Cauliflower Toasts"
+   ],
+   "West Servery": [
+    "Herb Roasted Potatoes",
+    "Battered Cod Fish with Tartar Sauce",
+    "Chicken Tika Masala",
+    "Rice Tofu Mango",
+    "Pasta Primavera with Fresh Mozzarella",
+    "Jalapeno Bacon Poppers Pizza",
+    "Vegetable Supreme Pizza"
+   ]
+  },
+  "dinner": {
+   "Baker Kitchen": [],
+   "North Servery": [
+    "Steamed Rice",
+    "Honey Sriracha Chicken Thighs",
+    "Spanish Style Fisherman's Stew",
+    "Slow Simmered Black-eyed Peas & Okra",
+    "Plant-based PAOW Fried Rice",
+    "Baked Pasta Florentine",
+    "Crispy Macaroni & Cheese Wedges",
+    "Macaroni & Cheese"
+   ],
+   "Seibel Servery": [
+    "Tropical Coconut Rice",
+    "Calabasa Corn Succotash",
+    "Chile Lime Smoked Chicken",
+    "Salmon with Pineapple Salsa",
+    "Tofu, Potato & Okra Ragu",
+    "Baked Pasta Florentine"
+   ],
+   "South Servery": [
+    "Garlic and Herb Tossed Baby Potatoes",
+    "Broiled cod topped with White Wine Cream Shrimp Sauce",
+    "Baked Chicken, Red Pepper and Parsley Vinaigrette\n",
+    "Tuscan Northern Bean and Spinach Stew",
+    "Stuffed Shells with Creamy Marinara Sauce"
+   ],
+   "West Servery": [
+    "Rice Pilaf",
+    "Pot Crusted Cod Fish",
+    "Chicken with Jalapeno Corn Salsa",
+    "Baked Pasta with Ricotta",
+    "Navy Bean Carrot Potato Stew"
+   ]
+  }
+ },
+ "Saturday": {
+  "lunch": {
+   "Baker Kitchen": [
+    "Cilantro Rice",
+    "Pinto Beans",
+    "Sweet Chili Chicken",
+    "Beef Barbacoa",
+    "Tofu with Mango Salsa",
+    "Plant-based Picadillo",
+    "Cheese Ravioli"
+   ],
+   "North Servery": [
+    "Cilantro Lime Rice",
+    "Beef Barbacoa\n",
+    "Sweet Chili Chicken",
+    "Pinto Beans",
+    "Plant-based Picadillo",
+    "Tofu Mango Rice",
+    "Cheese Enchiladas"
+   ],
+   "Seibel Servery": [
+    "Cilantro Rice",
+    "Pinto Beans",
+    "Sweet Chili Chicken",
+    "Beef Barbacoa",
+    "Tofu with Mango Salsa",
+    "Plant-based Picadillo",
+    "Cheese Ravioli"
+   ],
+   "South Servery": [],
+   "West Servery": []
+  },
+  "dinner": {
+   "Baker Kitchen": [
+    "Macaroni & Cheese",
+    "Honey Buffalo Chicken",
+    "Barbecue Pork",
+    "Black-eyed Pea Rice",
+    "Navy Bean, Carrot & Kale",
+    "PAOW Snap Pea Stir-fry"
+   ],
+   "North Servery": [
+    "Barbecue Pulled Pork\n",
+    "Honey Buffalo Chicken",
+    "Wild Rice Pilaf",
+    "PAOW & Sugar Snap Stir Fry",
+    "Navy Beans with Carrots and Kale"
+   ],
+   "Seibel Servery": [
+    "Macaroni & Cheese",
+    "Honey Buffalo Chicken",
+    "Barbecue Pork",
+    "Black-eyed Pea Rice",
+    "Navy Bean, Carrot & Kale",
+    "PAOW Snap Pea Stir-fry"
+   ],
+   "South Servery": [],
+   "West Servery": [
+    "dinner available at North and Seibel serveries\n"
+   ]
+  }
+ },
+ "Sunday": {
+  "lunch": {
+   "Baker Kitchen": [],
+   "North Servery": [],
+   "Seibel Servery": [
+    "Fiesta Rice",
+    "Texas Ranchero Beans",
+    "Cilantro Lime Vinaigrette Fish",
+    "Grilled Chicken with Roasted Corn Salsa\n",
+    "Three Pepper Tofu with Plum Sauce",
+    "Tomato Pesto Cauliflower Flatbread",
+    "Kale Mushroom Frittata"
+   ],
+   "South Servery": [
+    "Cheese and Chipotle Migas",
+    "Shredded Beef Chilaquiles con Queso",
+    "Fried Chicken Cutlets",
+    "Belgian Waffles",
+    "Fresh Vegetables"
+   ],
+   "West Servery": [
+    "Mac and Cheese",
+    "BBQ Chopped Beef",
+    "Chicken Dumplings with Sesame Ginger Soy",
+    "Fried Rice with Tofu",
+    "Grilled Chicken "
+   ]
+  },
+  "dinner": {
+   "Baker Kitchen": [],
+   "North Servery": [
+    "Steamed Basmati Rice",
+    "Butter Chicken Thighs",
+    "Cod Fish Vindaloo",
+    "Potato & Tempeh Curry",
+    "Simmered Lentils Cauliflower & Spinach",
+    "Ricotta Stuffed Shells",
+    "Warm Naan Bread Dippers"
+   ],
+   "Seibel Servery": [
+    "Steamed Rice",
+    "Honey Sriracha Shrimp",
+    "Beef in Mushroom Demi Glace",
+    "Tempeh Potato Masala",
+    "Thai Chili Tofu",
+    "Ricotta Stuffed Shells"
+   ],
+   "South Servery": [
+    "Cheese Roasted Red Potatoes",
+    "Chipotle BBQ Glazed Smoked Chicken\n",
+    "Creole Shrimp Tomato Ragout",
+    "Tofu and Corn Succotash",
+    "Baked Ricotta Pasta"
+   ],
+   "West Servery": [
+    "Wild Rice",
+    "Chicken Alfredo with Mushroom",
+    "Shrimp with Spicy Sweet and Sour Sauce",
+    "Pasta Pesto with Sundried Tomato",
+    "Bean Tofu with Fresh Salsa Verde"
+   ]
+  }
+ }
+}

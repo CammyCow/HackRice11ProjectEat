@@ -8,8 +8,12 @@ from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup
 from collections import defaultdict
 
-
 def menu_scraping():
+    '''
+    This Function scrapes all dining information from dining.rice.edu and constructs
+    a readable general menu.
+    :return: menu, a nested dictionary of dishes
+    '''
     # Instantiate an Options object and tell the browser to run in a headless mode
     opts = Options()
     opts.add_argument(" --headless")
@@ -50,30 +54,34 @@ def menu_scraping():
         for dish in menu_raw:
             discrete_menu.append(dish.get_text())
 
+        # Separate the days-based menu data into lunch data and dinner data
         lunch_days_meals = day_menu_raw[0:7]
         dinner_days_meals = day_menu_raw[8:15]
 
+        # Construct the general menu
         j = 0
         for i in range(7):
+            # menu for lunch
             lunch_day_meal = lunch_days_meals[i]
-            menu[days[i]][serveries[index]]['lunch'] = []
+            menu[days[i]]['lunch'][serveries[index]] = []
             # assume that the dishes for lunch in different serveries in a day are all different
             while discrete_menu[j] in lunch_day_meal:
-                menu[days[i]][serveries[index]]['lunch'].append(discrete_menu[j])
+                menu[days[i]]['lunch'][serveries[index]].append(discrete_menu[j])
                 j += 1
 
         for i in range(7):
+            # menu for dinner
             dinner_day_meal = dinner_days_meals[i]
-            menu[days[i]][serveries[index]]['dinner'] = []
+            menu[days[i]]['dinner'][serveries[index]] = []
             # assume that the dishes for dinner in different serveries in a day are all different
             while j < len(discrete_menu) and discrete_menu[j] in dinner_day_meal:
-                menu[days[i]][serveries[index]]['dinner'].append(discrete_menu[j])
+                menu[days[i]]['dinner'][serveries[index]].append(discrete_menu[j])
                 j += 1
     return menu
 
 menu = menu_scraping()
 
-def data_frame(menu):
+def food_sort(menu):
     d = {'foodName': [], 'date': [], 'isLunch': [], 'place': []}
     data_set = pd.DataFrame(data=d)
 
@@ -84,9 +92,14 @@ def data_frame(menu):
                     df2 = pd.DataFrame([[item, key1, key3, key2]], columns=['foodName', 'date', 'isLunch', 'place'])
                     data_set=pd.concat([data_set, df2], ignore_index=True)
     result = data_set.to_json(orient="split")
-    jsonFile = open("data.json", "w")
-    jsonFile.write(result)
-    jsonFile.close()
+    json_file = open("food_sort.json", "w")
+    json_file.write(result)
+    json_file.close()
 
+def general_menu_json(menu):
+    menu_json = json.dumps(menu, indent=1)
+    with open ('menu_json', 'w') as json_file:
+        json_file.write(menu_json)
+    json_file.close()
 
-data_frame(menu)
+general_menu_json(menu)
