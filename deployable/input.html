@@ -1,22 +1,36 @@
 <!DOCTYPE html>
 <html>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon.png" sizes="96x96">
+    <title>RicEATS Set Preferences</title>
+  </head>
+
 <style>
 * {
   box-sizing: border-box;
 }
-
+h1, p {
+  color:#733a8a;
+}
 #regForm {
   background-color: white;
+  opacity: 0.7;
   margin: 100px auto;
-  font-family: Raleway;
+  font-family: "Quicksand", sans-serif;  
   padding: 60px;
   height:70%;
   width: 70%;
   min-width: 300px;
+  position:relative;
 }
 
+
+td{
+  height: 40px;
+
+}
 /* Hide all steps by default: */
 .tab {
   display: none;
@@ -28,8 +42,9 @@ button {
   border: none;
   padding: 10px 20px;
   font-size: 17px;
-  font-family: Raleway;
+  font-family: "Quicksand", sans-serif;  
   cursor: pointer;
+  border-radius: 5px;
 }
 
 button:hover {
@@ -61,6 +76,7 @@ button:hover {
   background-color: #8e44ad;
 }
 body {
+    font-size: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,21 +105,9 @@ body {
     padding-left: 2em;
     padding-right: 1em;
     line-height: 2;
-    cursor: pointer;}
+    cursor: pointer;
+   }
 
-  label:before {
-    box-sizing: border-box;
-    content: " ";
-    position: absolute;
-    top: 0.3em;
-    left: 0;
-    display: block;
-    width: 1.4em;
-    height: 1.4em;
-    border: 2px solid rgb(0, 0, 0);
-    border-radius: .25em;
-    z-index: -1;
-  }
     
   input[type="radio"] + label:before {
     border-radius: 1em;
@@ -111,15 +115,17 @@ body {
   /* Checked */
   input[type="checkbox"]:checked + label,
   input[type="radio"]:checked + label {
-    padding-left: 1em;
+    padding-left: 15px;
     border-radius: 5px;
-    color: white;}
+    color: white;
+    height: 300%;
+  }
 
   input[type="checkbox"]:checked + label,
   input[type="radio"]:checked + label ::before {
       top: 0;
       width: 100%;
-      height: 2em;
+      height: 200%;
       border-radius: 5px;
       background: #8e44ad;
     }
@@ -132,16 +138,29 @@ body {
     -o-transition: .25s all ease;
     transition: .25s all ease;
   }
+
+  img {
+  right:0;
+  bottom:0;
+  position:absolute;
+  }
+
+  table{
+    background-color: white;
+    opacity: 1;
+
+  }
 </style>
+
 <body>
-
+<img src="logo_part.png" height=1050px>
 <form id="regForm" action >
-
   <!-- One "tab" for each step in the form: -->
   
   <div class="tab">
-    <h1>Pick your favorites:</h1>
-    <table>
+    <h1>Pick your favorites</h1>
+    <p>Vegetables:</p>
+    <table id="favorite-vegetables">
       <tr>
         <td>
           <input type="checkbox" name="cb" id="cb1" />
@@ -217,12 +236,61 @@ body {
         </td>
       </tr>
     </table>
+
+    <p>Meat:</p>
+
+    <table id="favorite-meat">
+      <td>
+        <input type="checkbox" name="cb" id="cb01" />
+        <label for="cb01">Beef</label>
+      </td>
+      <td>
+
+        <input type="checkbox" name="cb" id="cb02" />
+        <label for="cb02">Chicken</label>
+      </td>
+      <td>
+        
+        <input type="checkbox" name="cb" id="cb03" />
+        <label for="cb03">Pork</label>
+      </td>
+      <td>
+        <input type="checkbox" name="cb" id="cb04" />
+        <label for="cb04">Seafood</label>
+      </td>
+    </tr>
+    </table>
+    <p>Staple:</p>
+
+    <table id="favorite-staple">
+      <td>
+        <input type="checkbox" name="cb" id="cbs1" />
+        <label for="cbs1">Rice</label>
+      </td>
+      <td>
+
+        <input type="checkbox" name="cb" id="cbs2" />
+        <label for="cbs2">Pizza</label>
+      </td>
+      <td>
+        
+        <input type="checkbox" name="cb" id="cbs3" />
+        <label for="cbs3">Pasta</label>
+      </td>
+      <td>
+        <input type="checkbox" name="cb" id="cbs4" />
+        <label for="cbs4">Spaghetti</label>
+      </td>
+    </tr>
+    </table>
+
   </div>
 
 
 
   <div class="tab">
-    <h1>Pick your LEAST favorites:</h1>
+    <h1>Pick your LEAST favorites</h1>
+    <p>Vegetables:</p>
     <table>
       <tr>
         <td>
@@ -299,9 +367,54 @@ body {
         </td>
       </tr>
     </table>
+
+    <p>Meat:</p>
+
+    <table id="favorite-meat">
+      <td>
+        <input type="checkbox" name="cb" id="cb01" />
+        <label for="cb01">Beef</label>
+      </td>
+      <td>
+
+        <input type="checkbox" name="cb" id="cb02" />
+        <label for="cb02">Chicken</label>
+      </td>
+      <td>
+        
+        <input type="checkbox" name="cb" id="cb03" />
+        <label for="cb03">Pork</label>
+      </td>
+      <td>
+        <input type="checkbox" name="cb" id="cb04" />
+        <label for="cb04">Seafood</label>
+      </td>
+    </tr>
+    </table>
+    <p>Staple:</p>
+
+    <table id="favorite-staple">
+      <td>
+        <input type="checkbox" name="cb" id="cbs1" />
+        <label for="cbs1">Rice</label>
+      </td>
+      <td>
+
+        <input type="checkbox" name="cb" id="cbs2" />
+        <label for="cbs2">Pizza</label>
+      </td>
+      <td>
+        
+        <input type="checkbox" name="cb" id="cbs3" />
+        <label for="cbs3">Pasta</label>
+      </td>
+      <td>
+        <input type="checkbox" name="cb" id="cbs4" />
+        <label for="cbs4">Spaghetti</label>
+      </td>
+    </tr>
+    </table>
   </div>
-
-
 
 
   <div class="tab">

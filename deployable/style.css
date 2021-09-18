@@ -1,13 +1,14 @@
-body {
-  background: #fff;
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,600,700");
+body{
+  background-color: #8e44ad;
   padding: 0px;
   margin: 0px;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Quicksand", sans-serif;  
   font-size: 16px;
 }
 
 input, button {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Quicksand", sans-serif;  
   font-weight: 700;
 }
 
@@ -38,7 +39,7 @@ input, button {
   border: 1px solid #777;
 }
 
-.main-div button, .loggedin-div button{
+.main-div button, .loggedin-div button, #logout_button{
   background: #5d8ffc;
   color: #fff;
   border: 1px solid #5d8ffc;
@@ -51,7 +52,7 @@ input, button {
   -moz-transition: 0.3s;
 }
 
-.main-div button:hover, .loggedin-div button:hover{
+.main-div button:hover, .loggedin-div button:hover, #logout_button{
   background: #fff;
   color: #5d8ffc;
   border: 1px solid #5d8ffc;
