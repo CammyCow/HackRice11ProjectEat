@@ -1,49 +1,21 @@
 <html>
   <head>
+    <script src="testUserConfigForm.js"></script>
   </head>
 
   <body>
 
-    <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-firestore.js"></script>
-    <script type="module">
-      // Import the functions you need from the SDKs you need
-      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.0.2/firebase-app.js";
-      import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.0.2/firebase-analytics.js";
-      // TODO: Add SDKs for Firebase products that you want to use
-      // https://firebase.google.com/docs/web/setup#available-libraries
+    <h1>Forum Submit Test</h1>
+    <h2 id = "food">Tofu with Mango Salsa</h2>
+    <div></div>
 
-      // Your web app's Firebase configuration
-      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-      const firebaseConfig = {
-        apiKey: "AIzaSyDgOQIJswEfH56KFvVAdq8KXZstPyZB3kg",
-        authDomain: "hackriceprojecteating.firebaseapp.com",
-        projectId: "hackriceprojecteating",
-        storageBucket: "hackriceprojecteating.appspot.com",
-        messagingSenderId: "371483673471",
-        appId: "1:371483673471:web:169be295bac547daac904a",
-        measurementId: "G-44KBRM0SXN"
-      };
-        // Initialize Firebase
-        const app = initializeApp(firebaseConfig);
-
-        var db = firebase.firestore();
-
-        function writeData(){
-          db.collection("users").set({
-              first: "Ada",
-              last: "Lovelace",
-              born: 1815
-          });
-        }
-
-    </script>
-
-
-    <h1>User Database Configuration Test</h1>
-    do you like chicken
-    <button type="button" onclick = "writeData()">test</button>
-
+    <form id = "foodReview" action="/action_page.php">
+      <input type = "range" id = "starRating" name = "rating" min = "0" max = "5" steps = "1">
+      <br><br>
+      <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+      <br><br>
+      <input type="submit" value="Submit">
+    </form>
 
   </body>
 
