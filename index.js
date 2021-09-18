@@ -1,7 +1,6 @@
 firebase.auth().onAuthStateChanged(function(user) {
   if (user) {
     // User is signed in.
-
     document.getElementById("user_div").style.display = "block";
     document.getElementById("login_div").style.display = "none";
 
@@ -37,6 +36,13 @@ function login(){
 
   });
 
+}
+
+function google_login(){
+  console.log("google login called");
+  const provider = new firebase.auth.GoogleAuthProvider();
+  const auth = firebase.auth().getAuth;
+  firebase.auth().signInWithRedirect(provider);
 }
 
 function logout(){
