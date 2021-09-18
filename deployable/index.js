@@ -41,10 +41,26 @@ function login(){
 function google_login(){
   console.log("google login called");
   const provider = new firebase.auth.GoogleAuthProvider();
-  const auth = firebase.auth().getAuth;
+
   firebase.auth().signInWithRedirect(provider);
 }
 
 function logout(){
   firebase.auth().signOut();
+}
+
+
+const signupForm = document.querySelector('#signup-form');
+signupForm.addEventListener('submit', (e) =>{
+    e.preventDefault();
+    const email = signupForm['signup-email'].value;
+    const password = signupForm['signup-pwd'].value;
+    firebase.auth().createUserWithEmailAndPassword(email, password).then(cred=>{
+      console.log(cred.user);
+    });
+
+})
+
+function signup(){
+
 }
