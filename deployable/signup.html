@@ -1,0 +1,53 @@
+
+<html>
+    <head>
+      <title>RiceEats Signup</title>
+      <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
+      <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+    
+    
+        <form id="signup-form">
+            <div id="login_div" class="main-div">
+                <h3>RiceEats Signup</h3>
+
+                <input type="email" placeholder="Email..." id="signup-email" required/>
+                <input type="password" placeholder="Password..." id="signup-pwd" required/>
+                <button type="submit">Signup</button><br>
+                <a href="index.html" class="link">Login</a>
+        
+            </div>
+        </form>
+ 
+    
+      <div id="user_div" class="loggedin-div">
+        <h3>Welcome User</h3>
+        <p id="user_para">Welcome to RiceEats web login Example. You're currently logged in.</p>
+        <button onclick="logout()">Logout</button>
+      </div>
+    
+      <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-app.js"></script>
+    
+      <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-auth.js"></script>
+    
+      <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+      <script>
+        // Initialize Firebase
+      const firebaseConfig = {
+        apiKey: "AIzaSyDgOQIJswEfH56KFvVAdq8KXZstPyZB3kg",
+        authDomain: "hackriceprojecteating.firebaseapp.com",
+        projectId: "hackriceprojecteating",
+        storageBucket: "hackriceprojecteating.appspot.com",
+        messagingSenderId: "371483673471",
+        appId: "1:371483673471:web:169be295bac547daac904a",
+        measurementId: "G-44KBRM0SXN"
+      };
+        firebase.initializeApp(firebaseConfig);
+    
+      </script>
+      <script src="index.js"></script>
+    
+    </body>
+    </html>
+    
