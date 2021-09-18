@@ -1,0 +1,13 @@
+/* .package.json */
+
+{
+  ...
+  "scripts": {
+    ...
+    "clean": "npx del dist",
+    "prebuild": "npm run clean",
+    "build:prod": "ELEVENTY_ENV=prod npx eleventy",
+    "predeploy": "npm run build:prod",
+    "deploy": "npx firebase deploy",
+  }
+}
