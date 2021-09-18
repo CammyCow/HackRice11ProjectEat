@@ -140,7 +140,7 @@ body {
   <!-- One "tab" for each step in the form: -->
   
   <div class="tab">
-    <h1>Pick your favorite vegetables:</h1>
+    <h1>Pick your favorites:</h1>
     <table>
       <tr>
         <td>
@@ -222,7 +222,7 @@ body {
 
 
   <div class="tab">
-    <h1>Pick your LEAST favorite vegetables:</h1>
+    <h1>Pick your LEAST favorites:</h1>
     <table>
       <tr>
         <td>
@@ -305,7 +305,7 @@ body {
 
 
   <div class="tab">
-    <h1>Are you allergic to any of the following food?</h1>
+    <h1>Are you allergic to any of these?</h1>
     <table>
       <tr>
         <td>
@@ -385,7 +385,7 @@ body {
     
   </div>
   <div class="tab">
-    <h1>What are your favorite flavors?</h1>
+    <h1>Pick your favorite flavors</h1>
     <table>
       <tr>
         <td>
@@ -515,7 +515,7 @@ function nextPrev(n) {
   if (currentTab >= x.length) {
     // ... the form gets submitted:
     document.getElementById("regForm").submit();
-    return false;
+    window.location.replace("loggedin_main.html");
   }
   // Otherwise, display the correct tab:
   showTab(currentTab);
