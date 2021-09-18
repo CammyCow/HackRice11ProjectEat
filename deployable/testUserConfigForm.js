@@ -1,12 +1,4 @@
-// Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-import { database } from 'firebase/database';
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
-
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
+var firebaseConfig = {
   apiKey: "AIzaSyDgOQIJswEfH56KFvVAdq8KXZstPyZB3kg",
   authDomain: "hackriceprojecteating.firebaseapp.com",
   databaseURL: "https://hackriceprojecteating-default-rtdb.firebaseio.com",
@@ -17,42 +9,53 @@ const firebaseConfig = {
   measurementId: "G-44KBRM0SXN"
 };
 
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-var database = firebase.database();
-//intercepting the form so we can put inputs into Firebase
-document.getElementById("foodReview").addEventListener('submit',submitForm);
+firebase.initializeApp(firebaseConfig);
 
-  function submitForm(e){
-    e.preventDefault();
+// Reference messages collection
+var messagesRef = firebase.database().ref('messages');
 
-    var foodName = getInputVal('food');
-    var starRating = getInputVal('starRating');
-    var comment = getInputVal('comment');
+// Listen for form submit
+document.getElementById('contactForm').addEventListener('submit', submitForm);
 
-    testReview(foodName, starRating, comment);
-  }
+// Submit form
+function submitForm(e){
+  e.preventDefault();
 
-  function getInpulVal(id){
-    return document.getElementById(id).value;
-  }
+  // Get values
+  var name = getInputVal('name');
+  var company = getInputVal('company');
+  var email = getInputVal('email');
+  var phone = getInputVal('phone');
+  var message = getInputVal('message');
 
+  // Save message
+  saveMessage(name, company, email, phone, message);
 
-  function writeReview(userId, itemId, food, serveryId, rating, comment, date) {
-    firebase.database().ref('users/' + userId).set({
-      userId: userId,
-      itemId: email,
-      itemName: food
-      serveryId: serveryId,
-      starRating: rating,
-      comment: comment,
-      datePosted: date
-    });
-  }
-  function testReview(food, starRating, review){
-    firebase.database().ref('foodReview/' + food).set({
-      food: food,
-      starRating: rating,
-      comment: review,
-    });
-  }
+  // Show alert
+  document.querySelector('.alert').style.display = 'block';
+
+  // Hide alert after 3 seconds
+  setTimeout(function(){
+    document.querySelector('.alert').style.display = 'none';
+  },3000);
+
+  // Clear form
+  document.getElementById('contactForm').reset();
+}
+
+// Function to get get form values
+function getInputVal(id){
+  return document.getElementById(id).value;
+}
+
+// Save message to firebase
+function saveMessage(name, company, email, phone, message){
+  var newMessageRef = messagesRef.push();
+  newMessageRef.set({
+    name: name,
+    company:company,
+    email:email,
+    phone:phone,
+    message:message
+  });
+}
