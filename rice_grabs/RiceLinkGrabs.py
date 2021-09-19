@@ -149,7 +149,8 @@ def dish_identifier(dishes_raw, menu_dishes, ingredients):
     for i in range(len(menu_dishes)):
         dish1 = menu_dishes[i]
         if has_id[dish1] == False:
-            id_dishes[id_count][dish1] = dishes_raw[dish1]
+            id_dishes[id_count]['dish'] = dish1
+            id_dishes[id_count] = dishes_raw[dish1]
             id_lists[dish1] = id_count
             has_id[dish1] = True
             j = i + 1
@@ -176,20 +177,24 @@ def dish_identifier(dishes_raw, menu_dishes, ingredients):
                             for item1 in dishes_raw[dish1]['Ingredient']:
                                 for item2 in dishes_raw[dish2]['Ingredient']:
                                     if item1 in ingredients['meat'] and item1 == item2:
-                                        id_dishes[id_count][dish2] = dishes_raw[dish2]
+                                        id_dishes[id_count]['dish'] = dish2
+                                        id_dishes[id_count] = dishes_raw[dish2]
                                         id_lists[dish2] = id_count
                                         has_id[dish2] == True
                                     elif item1 in ingredients['staple'] and item1 == item2:
-                                        id_dishes[id_count][dish2] = dishes_raw[dish2]
+                                        id_dishes[id_count]['dish'] = dish2
+                                        id_dishes[id_count] = dishes_raw[dish2]
                                         id_lists[dish2] = id_count
                                         has_id[dish2] == True
                                     elif item1 in ingredients['seafood'] and item2 in ingredients['seafood']:
                                         if item1 == item2:
-                                            id_dishes[id_count][dish2] = dishes_raw[dish2]
+                                            id_dishes[id_count]['dish'] = dish2
+                                            id_dishes[id_count] = dishes_raw[dish2]
                                             id_lists[dish2] = id_count
                                             has_id[dish2] == True
                                         elif item1 != 'Shrimp' and item2 != 'Shrimp':
-                                            id_dishes[id_count][dish2] = dishes_raw[dish2]
+                                            id_dishes[id_count]['dish'] = dish2
+                                            id_dishes[id_count] = dishes_raw[dish2]
                                             id_lists[dish2] = id_count
                                             has_id[dish2] == True
 
