@@ -15,7 +15,7 @@ const app = firebase.initializeApp(firebaseConfig);
 firebase.auth().onAuthStateChanged(function(user) {
   if (user) {
     // User is signed in.
-
+    var uid = user.getUid();
   } else {
     // No user is signed in.
 
@@ -23,7 +23,7 @@ firebase.auth().onAuthStateChanged(function(user) {
 
   }
 });
-var uid = user.getUid();
+var uid = "12345";
 var currentTab = 0; // Current tab is set to be the first tab (0)
 showTab(currentTab); // Display the current tab
 
