@@ -64,40 +64,54 @@
       font-size: 20px;
       padding-left: 100px;
       padding-right: 100px;
-
-
   }
+  .center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
 
   </style>
 
 <div class = "container"><h1>Menu</h1></div>
 <div id="date" class = "container"></div>
 
-<div id="display">
-  <div id = "Baker Kitchen">
-    <h3>Baker Kitchen</h3>
-  </div>
-  <br>
+<table id="display" class="center">
+    <tr>
+        <td><h3>Baker Kitchen</h3></td>
+        <td>
+            <div id = "Baker Kitchen"></div>
+        </td>
+    </tr>
 
-  <div id = "North Servery">
-    <h3>North Servery</h3>
-  </div>
-  <br>
+    <tr>
+        <td><h3>North Servery</h3></td>
+        <td>
+            <div id = "North Kitchen"></div>
+        </td>
+    </tr>
 
-  <div id = "Seibel Servery">
-    <h3>Seibel Servery</h3>
-  </div>
-  <br>
+    <tr>
+        <td><h3>Seibel Servery</h3></td>
+        <td>
+            <div id = "Seibel Kitchen"></div>
+        </td>
+    </tr>
 
-  <div id = "South Servery">
-    <h3>South Servery</h3>
-  </div>
-  <br>
+    <tr>
+        <td><h3>South Servery</h3></td>
+        <td>
+            <div id = "South Kitchen"></div>
+        </td>
+    </tr>
 
-  <div id = "West Servery">
-    <h3>West Servery</h3>
-  </div>
-</div>
+    <tr>
+        <td><h3>West Servery</h3></td>
+        <td>
+            <div id = "West Kitchen"></div>
+        </td>
+    </tr>
+</table>
 
   <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-app.js"></script>
 
@@ -105,11 +119,11 @@
 
   <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
   <script src="menu.js"></script>
+
   <script>
 
     window.addEventListener('load', generateDailyView);
     console.log("loaded");
-
   </script>
 
 
