@@ -36,12 +36,16 @@ function generateDailyView(){
     case  6:
       day = "Saturday";
   }
-  var databaseRef = firebase.database().ref("foodItems");
+  const dateHeader = document.createElement('h4');
+  var ndoe = document.createTextNode(day);
+  dateHeader.append(ndoe);
+  document.getElementById("date").appendChild(dateHeader);
+
+  var databaseRef = firebase.database().ref();
   console.log("retreiving menu");
   databaseRef.on('value',(snapshot) => {
     const serv = snapshot.val();
     console.log(serv[day]);
-
     for (var servery in serv[day]["lunch"]){
       console.log("Lunch forloop:" + servery);
       displayServeryFood(serv[day]["lunch"][servery], servery);

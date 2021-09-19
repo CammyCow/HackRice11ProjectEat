@@ -35,6 +35,48 @@ function display(data){
   document.getElementById('display').appendChild(paragraph);
 }
 
-function displayMenu(){
+function initDatabase(){
+  // A post entry.
+  var testCollection = firebase.database().ref();
 
+  testCollection.set({
+    foodItems: {
+      "0": {
+        name: "Test Food",
+        keywords: ["test"]
+      }
+    },
+    weeklyMenu:{
+      "lunch" : {
+
+      },
+      "dinner" : {
+
+      }
+    },
+    Review: {
+
+    },
+    Keywords : {
+      "test" : [0]
+    }
+  }).then(success => {
+          console.log('success',success);
+      },
+      error => {
+          console.log('error',error);
+      }
+  );
+}
+
+function updateDatabase(){
+  var testFood =  {
+      keywords: ["test"],
+      name: "Update Test"
+  }
+  //var testKey = firebase.database().ref().child('foodItems').push().key;
+  var testKey = "tests"; 
+  var updates = {};
+  updates[testKey] = testFood;
+  return firebase.database().ref().update(updates);
 }
