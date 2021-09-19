@@ -1,28 +1,78 @@
-
 <html>
+
 <head>
-  <title>RiceEats Menu</title>
-
-
+  <title>RicEATS Menu</title>
+  <link rel="icon" type="image/png" href="favicon.png" sizes="96x96">
+  <link rel="stylesheet" href="main_style.css" />
 </head>
+
 <body>
-  <style>
-  div.container {
-    position:relative
-  }
+<a href="main.html"><img src="logo_white.png" height=60px id="lg"></a>
+
+<nav class="nav">
+    <div class="container">
+        <div class="logo">
+        </div>
+        <div id="mainListDiv" class="main_list">
+            <ul class="navlinks">
+                <li><a href="about.html">About</a></li>
+                <li><a href="signup.html" class="link">Signup</a> </li>
+                <li><a href="index.html" class="link">Login</a></li>
+            </ul>
+        </div>
+        <span class="navTrigger">
+            <i></i>
+            <i></i>
+            <i></i>
+        </span>
+    </div>
+</nav>
+  
+<style>
+
+    body{
+        background-color: #8e44ad;
+    }
+
+    div.container {
+        position:relative;
+        color: white;
+    }
   div.container p{
     margin: 0;
     position: absolute;
     top: 50%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%);
+    color: white;
   }
+  #date{
+    color: #8e44ad;
+    background-color: white;
+    font-size: 40px;
+  }
+  h3{
+      color:white;
+      font-size: 40px;
+  }
+  p{
+      color:white;
+  }
+  div{
+      text-align: center;
+      font-size: 20px;
+      padding-left: 100px;
+      padding-right: 100px;
+
+
+  }
+
   </style>
 
 <div class = "container"><h1>Menu</h1></div>
-<div id="date" class = "container"> </div>
-<br>
+<div id="date" class = "container"></div>
+
 <div id="display">
   <div id = "Baker Kitchen">
     <h3>Baker Kitchen</h3>
