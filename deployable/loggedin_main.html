@@ -7,8 +7,6 @@
       <link rel="icon" type="image/png" href="favicon.png" sizes="96x96">
     </head>
     <body>
-
-
             <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-app.js"></script>
 
             <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-auth.js"></script>
@@ -32,35 +30,38 @@
                 firebase.auth().signOut();
                 window.location.replace("main.html");
             }
-
         </script>
-        <style>
-            body{
-                background-color: #8e44ad;
-            }
-            h1, p{
-                color:white;
-                text-align: center;
-                font-size: 60px;
-                padding: 100px 0;
-            }
-            .center {
-            display: block;
-            margin: auto;
-            width: 50%;
-            margin: auto;
-            padding: 50px 0;
-            }
-        </style>
 
-        <div id="user_div" class="loggedin-div">
-    
-            <p id="user_para">Welcome to RiceEats web login. You're currently logged in.</p>
-            <button onclick="logout()">Logout</button>
+<nav class="nav">
+    <div class="container">
+        <div class="logo">
+        </div>
+        <div id="mainListDiv" class="main_list">
+            <ul class="navlinks">
+                <li><a href="#about">About</a></li>
+
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="main.html">Logout</a></li>
+                <li>
+                    
+                </li>
+                <!--<li><button onclick="logout()">Logout</button></li>-->
+            </ul>
+        </div>
+        <span class="navTrigger">
+            <i></i>
+            <i></i>
+            <i></i>
+        </span>
+    </div>
+</nav>
+
+        <div id="user_div" class="loggedin-div">  
+            <h1 id="user_para" style="color: white;">Welcome to RicEATS. You're currently logged in.</h1>
         </div>
 
         <div class="center">
-            <img src="logo_white.png" width="800">
+            <img src="logo_white.png" height=60px id="lg">
         </div>
 
     </body>

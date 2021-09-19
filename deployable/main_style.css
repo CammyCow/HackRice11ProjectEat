@@ -375,3 +375,49 @@ body {
 		padding:2%;
 	}
 }
+
+#about{
+
+    background-color: white;
+    height: 600px;
+}
+
+h2 {
+    color: #8e44ad;
+    text-align: center;
+}
+
+p {
+    color:#8e44ad; 
+    font-size: 40px;
+    padding: 5px 0;
+
+}
+
+button {
+    text-decoration: none;
+    color: #fff;
+    line-height: 65px;
+    font-size: 2.4rem;
+
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+button:hover {
+    color: #733a8a;
+}
+
+#lg {
+    position: fixed; top: 30px; left: 30px;
+  }
+
+a{
+    font-size: 50px;
+    color:white;
+    text-align: center;
+}
