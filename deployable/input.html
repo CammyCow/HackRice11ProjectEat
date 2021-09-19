@@ -164,7 +164,7 @@ body {
 <body>
 <img src="logo_white.png" height=60px id="lg">
 <img src="logo_part.png" height=1050px id="bgd">
-<form id="regForm" onsubmit = "saveToDatabase">
+<form id="regForm" onsubmit = "extractData">
   <!-- One "tab" for each step in the form: -->
   <div class="tab">
     <h1>Pick your favorites &#128150</h1>
@@ -595,9 +595,8 @@ function nextPrev(n) {
   if (currentTab >= x.length) {
     // ... the form gets submitted:
     console.log("form submitted");
-    extractData();
-    //document.getElementById("regForm").submit();
-    //window.location.replace("loggedin_main.html");
+    document.getElementById("regForm").submit();
+    window.location.replace("loggedin_main.html");
   }
   // Otherwise, display the correct tab:
   showTab(currentTab);

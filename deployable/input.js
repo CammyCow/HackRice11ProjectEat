@@ -12,18 +12,22 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = firebase.initializeApp(firebaseConfig);
 
-firebase.auth().onAuthStateChanged((user) => {
+firebase.auth().onAuthStateChanged(function(user) {
   if (user) {
-    // User is signed in, see docs for a list of available properties
-    // https://firebase.google.com/docs/reference/js/firebase.User
-    var uid = user.uid;
-    // ...
+    // User is signed in.
+
+    document.getElementById("user_div").style.display = "block";
+    document.getElementById("login_div").style.display = "none";
+
+    var user = firebase.auth().currentUser;
+
   } else {
-    // User is signed out
-    // ...
+    // No user is signed in.
+
+    console.log("not signed in")
+
   }
 });
-
 function extractData(){
   var vegetables = document.getElementById("favorite-vegetables").querySelectorAll('input[type=checkbox]');
   var meat = document.getElementById("favorite-meat").querySelectorAll('input[type=checkbox]');
@@ -86,28 +90,22 @@ function extractData(){
     }
   }
   console.log(allergies);
-
+  saveToDatabase(uid, preferences, dislikes, allergies, vegetarian);
 
 }
 //
-// function saveToDatabase(uid, username, picture, title, body) {
-//   // A post entry.
-//   var postData = {
-//     author: username,
-//     uid: uid,
-//     body: body,
-//     title: title,
-//     starCount: 0,
-//     authorPic: picture
-//   };
-//
-//   // Get a key for a new Post.
-//   var newPostKey = firebase.database().ref().child('posts').push().key;
-//
-//   // Write the new post's data simultaneously in the posts list and the user's post list.
-//   var updates = {};
-//   updates['/posts/' + newPostKey] = postData;
-//   updates['/user-posts/' + uid + '/' + newPostKey] = postData;
-//
-//   return firebase.database().ref().update(updates);
-// }
+function saveToDatabase(uid, preferences, dislikes, allergies, vegetarian) {
+  // A post entry.
+  var postData = {
+    preferences: preferences,
+    dislikes: dislikes,
+    allergies: allergies,
+    vegetarian: vegetarian
+  };
+
+  // Write the new post's data simultaneously in the posts list and the user's post list.
+  var updates = {};
+  updates['/Users/' + uid] = postData;
+
+  return firebase.database().ref().update(updates);
+}
