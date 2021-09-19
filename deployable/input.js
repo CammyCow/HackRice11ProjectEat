@@ -101,7 +101,7 @@ function extractData(uid){
   var vegetables = document.getElementById("favorite-vegetables").querySelectorAll('input[type=checkbox]');
   var meat = document.getElementById("favorite-meat").querySelectorAll('input[type=checkbox]');
   var staple = document.getElementById("favorite-staple").querySelectorAll('input[type=checkbox]');
-  var least_vege = document.getElementById("unfavorite-`  vegetables").querySelectorAll('input[type=checkbox]');
+  var least_vege = document.getElementById("unfavorite-vegetables").querySelectorAll('input[type=checkbox]');
   var least_meat = document.getElementById("unfavorite-meat").querySelectorAll('input[type=checkbox]');
   var least_staple = document.getElementById("unfavorite-staple").querySelectorAll('input[type=checkbox]');
   var allergy = document.getElementById("allergy").querySelectorAll('input[type=checkbox]');
