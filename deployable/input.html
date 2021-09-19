@@ -25,7 +25,7 @@ p {
   background-color: white;
   opacity: 0.7;
   margin: 100px auto;
-  font-family: "Quicksand", sans-serif;  
+  font-family: "Quicksand", sans-serif;
   padding: 60px;
   height:70%;
   width: 70%;
@@ -49,7 +49,7 @@ button {
   border: none;
   padding: 10px 20px;
   font-size: 17px;
-  font-family: "Quicksand", sans-serif;  
+  font-family: "Quicksand", sans-serif;
   cursor: pointer;
   border-radius: 5px;
 }
@@ -68,7 +68,7 @@ button:hover {
   width: 15px;
   margin: 0 2px;
   background-color: #bbbbbb;
-  border: none;  
+  border: none;
   border-radius: 50%;
   display: inline-block;
   opacity: 0.5;
@@ -93,7 +93,7 @@ body {
   }
   h1 {
     margin: 0 0 1em;
-    text-align: center;  
+    text-align: center;
   }
   .group {
     display: flex;
@@ -115,7 +115,7 @@ body {
     cursor: pointer;
    }
 
-    
+
   input[type="radio"] + label:before {
     border-radius: 1em;
   }
@@ -136,7 +136,7 @@ body {
       border-radius: 5px;
       background: #8e44ad;
     }
-  
+
 
   /* Transition */
   label,
@@ -164,7 +164,7 @@ body {
 <body>
 <img src="logo_white.png" height=60px id="lg">
 <img src="logo_part.png" height=1050px id="bgd">
-<form id="regForm" action >
+<form id="regForm" onsubmit = "saveToDatabase">
   <!-- One "tab" for each step in the form: -->
   <div class="tab">
     <h1>Pick your favorites &#128150</h1>
@@ -172,25 +172,25 @@ body {
     <table id="favorite-vegetables">
       <tr>
         <td>
-          <input type="checkbox" name="cb" id="cb1" />
+          <input type="checkbox" name="cb" id="cb1" value = "Mushroom"/>
           <label for="cb1">Mushroom</label>
 
         </td>
 
         <td>
-          <input type="checkbox" name="cb" id="cb2" />
+          <input type="checkbox" name="cb" id="cb2" value = "Broccoli"/>
           <label for="cb2">Broccoli</label>
 
         </td>
 
         <td>
-          <input type="checkbox" name="cb" id="cb3" />
+          <input type="checkbox" name="cb" id="cb3" value = "Corn"/>
           <label for="cb3">Corn</label>
 
         </td>
 
         <td>
-          <input type="checkbox" name="cb" id="cb4" />
+          <input type="checkbox" name="cb" id="cb4" vlue = "Tofu" />
           <label for="cb4">Tofu</label>
 
         </td>
@@ -200,24 +200,24 @@ body {
 
       <tr>
         <td>
-          <input type="checkbox" name="cb" id="cb5" />
+          <input type="checkbox" name="cb" id="cb5" value = "Spinach"/>
           <label for="cb5">Spinach</label>
 
         </td>
 
         <td>
-          <input type="checkbox" name="cb" id="cb6" />
+          <input type="checkbox" name="cb" id="cb6" value = "Potato"/>
           <label for="cb6">Potato</label>
 
         </td>
         <td>
-          <input type="checkbox" name="cb" id="cb7" />
+          <input type="checkbox" name="cb" id="cb7" value = "Red Pepper"/>
           <label for="cb7">Red Pepper</label>
 
         </td>
         <td>
 
-          <input type="checkbox" name="cb" id="cb8" />
+          <input type="checkbox" name="cb" id="cb8" value = "Onion"/>
           <label for="cb8">Onion</label>
         </td>
 
@@ -226,21 +226,21 @@ body {
 
       <tr>
         <td>
-          <input type="checkbox" name="cb" id="cb9" />
+          <input type="checkbox" name="cb" id="cb9" value = "Green Beans"/>
           <label for="cb9">Green Beans</label>
         </td>
         <td>
 
-          <input type="checkbox" name="cb" id="cb10" />
+          <input type="checkbox" name="cb" id="cb10" value = "Cauliflower"/>
           <label for="cb10">Cauliflower</label>
         </td>
         <td>
-          
-          <input type="checkbox" name="cb" id="cb11" />
+
+          <input type="checkbox" name="cb" id="cb11" value = "Carrot"/>
           <label for="cb11">Carrot</label>
         </td>
         <td>
-          <input type="checkbox" name="cb" id="cb12" />
+          <input type="checkbox" name="cb" id="cb12" value = "Eggplant"/>
           <label for="cb12">Eggplant</label>
         </td>
       </tr>
@@ -250,21 +250,21 @@ body {
 
     <table id="favorite-meat">
       <td>
-        <input type="checkbox" name="cb" id="cb01" />
+        <input type="checkbox" name="cb" id="cb01" value = "Beef"/>
         <label for="cb01">Beef</label>
       </td>
       <td>
 
-        <input type="checkbox" name="cb" id="cb02" />
+        <input type="checkbox" name="cb" id="cb02" value = "Chicken"/>
         <label for="cb02">Chicken</label>
       </td>
       <td>
-        
-        <input type="checkbox" name="cb" id="cb03" />
+
+        <input type="checkbox" name="cb" id="cb03" value = "Pork"/>
         <label for="cb03">Pork</label>
       </td>
       <td>
-        <input type="checkbox" name="cb" id="cb04" />
+        <input type="checkbox" name="cb" id="cb04" value = "Seafood"/>
         <label for="cb04">Seafood</label>
       </td>
     </tr>
@@ -273,21 +273,21 @@ body {
 
     <table id="favorite-staple">
       <td>
-        <input type="checkbox" name="cb" id="cbs1" />
+        <input type="checkbox" name="cb" id="cbs1" value = "Rice"/>
         <label for="cbs1">Rice</label>
       </td>
       <td>
 
-        <input type="checkbox" name="cb" id="cbs2" />
+        <input type="checkbox" name="cb" id="cbs2" value = "Pizza"/>
         <label for="cbs2">Pizza</label>
       </td>
       <td>
-        
-        <input type="checkbox" name="cb" id="cbs3" />
+
+        <input type="checkbox" name="cb" id="cbs3" value = "Pasta"/>
         <label for="cbs3">Pasta</label>
       </td>
       <td>
-        <input type="checkbox" name="cb" id="cbs4" />
+        <input type="checkbox" name="cb" id="cbs4" value = "Spaghetti"/>
         <label for="cbs4">Spaghetti</label>
       </td>
     </tr>
@@ -300,28 +300,28 @@ body {
   <div class="tab">
     <h1>Pick your LEAST favorites &#128148</h1>
     <p>VEGETABLES</p>
-    <table>
+    <table id = "unfavorite-vegetables">
       <tr>
         <td>
-          <input type="checkbox" name="cb" id="cb13" />
+          <input type="checkbox" name="cb" id="cb13" value = "Mushroom"/>
           <label for="cb13">Mushroom</label>
 
         </td>
 
         <td>
-          <input type="checkbox" name="cb" id="cb14" />
+          <input type="checkbox" name="cb" id="cb14" value = "Broccoli">
           <label for="cb14">Broccoli</label>
 
         </td>
 
         <td>
-          <input type="checkbox" name="cb" id="cb15" />
+          <input type="checkbox" name="cb" id="cb15" value = "Corn"/>
           <label for="cb15">Corn</label>
 
         </td>
 
         <td>
-          <input type="checkbox" name="cb" id="cb16" />
+          <input type="checkbox" name="cb" id="cb16" value = "Tofu"/>
           <label for="cb16">Tofu</label>
 
         </td>
@@ -331,24 +331,24 @@ body {
 
       <tr>
         <td>
-          <input type="checkbox" name="cb" id="cb17" />
+          <input type="checkbox" name="cb" id="cb17" value = "Spinach"/>
           <label for="cb17">Spinach</label>
 
         </td>
 
         <td>
-          <input type="checkbox" name="cb" id="cb18" />
+          <input type="checkbox" name="cb" id="cb18" value = "Potato"/>
           <label for="cb18">Potato</label>
 
         </td>
         <td>
-          <input type="checkbox" name="cb" id="cb19" />
+          <input type="checkbox" name="cb" id="cb19" value = "Red Pepper"/>
           <label for="cb19">Red Pepper</label>
 
         </td>
         <td>
 
-          <input type="checkbox" name="cb" id="cb20" />
+          <input type="checkbox" name="cb" id="cb20" value = "Onion"/>
           <label for="cb20">Onion</label>
         </td>
 
@@ -357,21 +357,21 @@ body {
 
       <tr>
         <td>
-          <input type="checkbox" name="cb" id="cb21" />
+          <input type="checkbox" name="cb" id="cb21" value = "Green Beans"/>
           <label for="cb21">Green Beans</label>
         </td>
         <td>
 
-          <input type="checkbox" name="cb" id="cb22" />
+          <input type="checkbox" name="cb" id="cb22" value = "Cauliflower"/>
           <label for="cb22">Cauliflower</label>
         </td>
         <td>
-          
-          <input type="checkbox" name="cb" id="cb23" />
+
+          <input type="checkbox" name="cb" id="cb23" value = "Carrot"/>
           <label for="cb23">Carrot</label>
         </td>
         <td>
-          <input type="checkbox" name="cb" id="cb24" />
+          <input type="checkbox" name="cb" id="cb24" value = "Eggplant"/>
           <label for="cb24">Eggplant</label>
         </td>
       </tr>
@@ -379,76 +379,76 @@ body {
 
     <p>MEAT</p>
 
-    <table id="favorite-meat">
+    <table id="unfavorite-meat">
       <td>
-        <input type="checkbox" name="cb" id="cb001" />
+        <input type="checkbox" name="cb" id="cb001" value = "Beef"/>
         <label for="cb001">Beef</label>
       </td>
       <td>
 
-        <input type="checkbox" name="cb" id="cb002" />
+        <input type="checkbox" name="cb" id="cb002" value = "Chicken"/>
         <label for="cb002">Chicken</label>
       </td>
       <td>
-        
-        <input type="checkbox" name="cb" id="cb003" />
+
+        <input type="checkbox" name="cb" id="cb003" value = "Pork"/>
         <label for="cb003">Pork</label>
       </td>
       <td>
-        <input type="checkbox" name="cb" id="cb004" />
+        <input type="checkbox" name="cb" id="cb004" value = "Seafood"/>
         <label for="cb004">Seafood</label>
       </td>
     </tr>
     </table>
     <p>STAPLE</p>
 
-    <table id="favorite-staple">
+    <table id="unfavorite-staple">
       <td>
-        <input type="checkbox" name="cb" id="cbss1" />
+        <input type="checkbox" name="cb" id="cbss1" value = "Rice" />
         <label for="cbss1">Rice</label>
       </td>
       <td>
 
-        <input type="checkbox" name="cb" id="cbss2" />
+        <input type="checkbox" name="cb" id="cbss2" value = "Pizza"/>
         <label for="cbss2">Pizza</label>
       </td>
       <td>
-        
-        <input type="checkbox" name="cb" id="cbss3" />
+
+        <input type="checkbox" name="cb" id="cbss3" value = "Pasta"/>
         <label for="cbss3">Pasta</label>
       </td>
       <td>
-        <input type="checkbox" name="cb" id="cbss4" />
+        <input type="checkbox" name="cb" id="cbss4" value = "Spaghetti"/>
         <label for="cbss4">Spaghetti</label>
       </td>
     </tr>
     </table>
   </div>
-    
+
   <div class="tab">
     <h1>Pick your favorite flavors &#127853</h1>
     <table>
       <tr>
         <td>
-          <input type="checkbox" name="cb" id="cb37" />
+          <input type="checkbox" name="cb" id="cb37" value = "Spicy"/>
           <label for="cb37">Spicy</label>
 
         </td>
 
         <td>
-          <input type="checkbox" name="cb" id="cb38" />
+          <input type="checkbox" name="cb" id="cb38" value = "Spiced"/>
           <label for="cb38">Spiced</label>
 
         </td>
 
         <td>
-          <input type="checkbox" name="cb" id="cb39" />
+          <input type="checkbox" name="cb" id="cb39" value = "Garlic"/>
           <label for="cb39">Garlic</label>
 
         </td>
 
         <td>
-          <input type="checkbox" name="cb" id="cb40" />
+          <input type="checkbox" name="cb" id="cb40" value = "Ginger"/>
           <label for="cb40">Ginger</label>
 
         </td>
@@ -458,24 +458,24 @@ body {
 
       <tr>
         <td>
-          <input type="checkbox" name="cb" id="cb41" />
+          <input type="checkbox" name="cb" id="cb41" value = "Vinaigrette"/>
           <label for="cb41">Vinaigrette</label>
 
         </td>
 
         <td>
-          <input type="checkbox" name="cb" id="cb42" />
+          <input type="checkbox" name="cb" id="cb42" value = "Sweet"/>
           <label for="cb42">Sweet</label>
 
         </td>
         <td>
-          <input type="checkbox" name="cb" id="cb43" />
+          <input type="checkbox" name="cb" id="cb43" value = "Sour"/>
           <label for="cb43">Sour</label>
 
         </td>
         <td>
 
-          <input type="checkbox" name="cb" id="cb44" />
+          <input type="checkbox" name="cb" id="cb44" value = "BBQ"/>
           <label for="cb44">BBQ</label>
         </td>
 
@@ -484,23 +484,23 @@ body {
 
       <tr>
         <td>
-          <input type="checkbox" name="cb" id="cb45" />
+          <input type="checkbox" name="cb" id="cb45" value = "Aioli"/>
           <label for="cb45">Aioli</label>
         </td>
         <td>
 
-          <input type="checkbox" name="cb" id="cb46" />
+          <input type="checkbox" name="cb" id="cb46" value = "Smoked"/>
           <label for="cb46">Smoked</label>
         </td>
         <td>
-          
-          <input type="checkbox" name="cb" id="cb47" />
+
+          <input type="checkbox" name="cb" id="cb47" value = "Curry"/>
           <label for="cb47">Curry</label>
         </td>
 
         <td>
-          
-          <input type="checkbox" name="cb" id="cb48" />
+
+          <input type="checkbox" name="cb" id="cb48" value = "Cream"/>
           <label for="cb48">Cream</label>
         </td>
       </tr>
@@ -510,31 +510,31 @@ body {
 
     <div class="tab">
       <h1>Are you allergic to any of these &#127844 </h1>
-      <table>
+      <table id = "allergy">
         <tr>
           <td>
-            <input type="checkbox" name="cb" id="cb25" />
+            <input type="checkbox" name="cb" id="cb25" value = "Shrimp"/>
             <label for="cb25">Shrimp</label>
-  
+
           </td>
-  
+
           <td>
-            <input type="checkbox" name="cb" id="cb26" />
+            <input type="checkbox" name="cb" id="cb26" value = "Peanut"/>
             <label for="cb26">Peanut</label>
-  
+
           </td>
-        
+
         </tr>
       </table>
       <h1>Are you a vegetarian &#129362</h1>
     <table>
         <tr>
           <td>
-            <input type="checkbox" name="cb" id="cb29" />
+            <input type="checkbox" name="cb" id="cb29" value = "Yes"/>
             <label for="cb29">Yes</label>
           </td>
         </tr>
-  
+
       </table>
   </div>
 
@@ -553,6 +553,12 @@ body {
   </div>
 </form>
 
+<script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-app.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-auth.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+<script src = "input.js"></script>
 <script>
 var currentTab = 0; // Current tab is set to be the first tab (0)
 showTab(currentTab); // Display the current tab
@@ -588,8 +594,10 @@ function nextPrev(n) {
   // if you have reached the end of the form...
   if (currentTab >= x.length) {
     // ... the form gets submitted:
-    document.getElementById("regForm").submit();
-    window.location.replace("loggedin_main.html");
+    console.log("form submitted");
+    extractData();
+    //document.getElementById("regForm").submit();
+    //window.location.replace("loggedin_main.html");
   }
   // Otherwise, display the correct tab:
   showTab(currentTab);

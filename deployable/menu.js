@@ -9,9 +9,9 @@ const firebaseConfig = {
     measurementId: "G-44KBRM0SXN"
   };
   firebase.initializeApp(firebaseConfig);
-  
+
   var database = firebase.database();
-  
+
   function generateDailyView(){
     let day;
     switch (new Date().getDay()) {
@@ -40,33 +40,39 @@ const firebaseConfig = {
     var ndoe = document.createTextNode(day);
     dateHeader.append(ndoe);
     document.getElementById("date").appendChild(dateHeader);
-  
+
     var databaseRef = firebase.database().ref();
     console.log("retreiving menu");
     databaseRef.on('value',(snapshot) => {
       const serv = snapshot.val();
-      console.log(serv[day]);
-      for (var servery in serv[day]["lunch"]){
+      menu = serv["Menu"][day];
+      foodDB = serv["foodItems"];
+      console.log(menu);
+      for (var servery in menu["lunch"]){
         console.log("Lunch forloop:" + servery);
-        displayServeryFood(serv[day]["lunch"][servery], servery);
+        foodItems = menu["lunch"][servery];
+        console.log(foodItems);
+        for(var food in foodItems){
+          foodName = Object.keys(foodDB[foodItems[food]])[0];
+          displayServeryFood(foodName, servery);
+        }
       }
-  
-      for (var servery in serv[day]["dinner"]){
-        console.log("Dinner forloop:" + servery)
-        displayServeryFood(serv[day]["dinner"][servery], servery);
-      }
-  
-      var node = document.createTextNode(day);
+
+      // for (var servery in menu["dinner"]){
+      //   console.log("Dinner forloop:" + servery)
+      //   displayServeryFood(menu["dinner"][servery], servery);
+      // }
     });
       console.log("finished");
     }
-  
-    function displayServeryFood(servery, servString){
-      console.log(servery);
+
+    function displayServeryFood(foodName, servString){
+      console.log(foodName);
       const paragraph = document.createElement('p');
-      for(var entry in servery){
-        var node = document.createTextNode(servery[entry] + ", ");
-        paragraph.appendChild(node);
-      }
+      var node = document.createTextNode(foodName + ", ");
+      console.log(node);
+      paragraph.appendChild(node);
+      console.log(servString);
+      console.log(document.getElementById(servString));
       document.getElementById(servString).appendChild(paragraph);
     }
