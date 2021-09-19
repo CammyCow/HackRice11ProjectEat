@@ -1,14 +1,11 @@
 # used Tutor from this website to scrape data from dynamic websites:
 # https://www.notion.so/Recommand-Algorithms-da42b30bef4c4cd5a09db9e912cbce16
 import os
-import firebase_admin
-import pandas as pd
 import json
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup
 from collections import defaultdict
-import numpy as np
 
 
 def menu_scraping():
@@ -138,7 +135,8 @@ def dish_identifier(dishes_raw, menu_dishes, ingredients):
     :param dishes_raw: a dictionary of dishes and their attributes
     :param menu_dishes: a list of strings representing the dish names
     :param ingredients: a dictionary of strings
-    :return: id_dishes, a dictionary of dishes with assigned FoodID.
+    :return: id_dishes, a dictionary of dishes with assigned FoodID as keys.
+    :return: id_lists, a dictionary with dishes as keys and assigned ID as values
     '''
     # initial settings
     id_dishes = defaultdict(lambda: (defaultdict()))
@@ -211,11 +209,13 @@ def menu_identifier(menu, id_lists):
 
 
 def identity_json(id_dishes, id_menu):
-    json_file = open("id_data.json", 'w')
-    json_file.write(id_dishes)
+    id_dish_file = json.dumps(id_dishes, indent=1)
+    with open("id_data.json", 'w') as json_file:
+        json_file.write(id_dish_file)
     json_file.close()
-    json_file = open("id_data.json", 'a')
-    json_file.write(id_menu)
+    id_menu_file = json.dumps(id_menu, indent=1)
+    with open("id_data.json", 'a') as json_file:
+        json_file.write(id_menu_file)
     json_file.close()
 
 
@@ -235,7 +235,7 @@ flavors = ['Spicy', 'Spiced', 'Garlic', 'Ginger', 'Vinaigrette', 'Sweet', 'Sour'
 allergies = ['Shrimp', 'Peanut']
 soups = ['Chowder', 'Soup']
 
-# dishes_raw = food_sort(menu_dishes, ingredients, flavors, allergies, soups)
-# (id_dishes, id_lists) = dish_identifier(dishes_raw, menu_dishes, ingredients)
-# id_menu = menu_identifier(menu, id_lists)
-# identity_json(id_dishes, id_menu)
+dishes_raw = food_sort(menu_dishes, ingredients, flavors, allergies, soups)
+(id_dishes, id_lists) = dish_identifier(dishes_raw, menu_dishes, ingredients)
+id_menu = menu_identifier(menu, id_lists)
+identity_json(id_dishes, id_menu)

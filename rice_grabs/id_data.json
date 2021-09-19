@@ -1,0 +1,3791 @@
+{
+ "1": {
+  "Pasta Primavera": {
+   "Ingredient": [
+    "Pasta"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "2": {
+  "Turkey Meatballs in Marinara": {
+   "Ingredient": [],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "3": {
+  "Fish with Lemon Caper Vinaigrette": {
+   "Ingredient": [
+    "Fish"
+   ],
+   "Flavor": [
+    "Vinaigrette"
+   ],
+   "Allergies": [],
+   "Soup": false
+  },
+  "Saut\u00e9ed Fish with Lemon Caper Vinaigrette": {
+   "Ingredient": [
+    "Fish"
+   ],
+   "Flavor": [
+    "Vinaigrette"
+   ],
+   "Allergies": [],
+   "Soup": false
+  },
+  "Cilantro Lime Vinaigrette Fish": {
+   "Ingredient": [
+    "Fish"
+   ],
+   "Flavor": [
+    "Vinaigrette"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "4": {
+  "Wild Rice, Quinoa & Kale": {
+   "Ingredient": [
+    "Rice"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "5": {
+  "Curried Lentils": {
+   "Ingredient": [],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "6": {
+  "CLOSED\n": {
+   "Ingredient": [],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "7": {
+  "Green Chile Chicken Lasagna": {
+   "Ingredient": [
+    "Chicken"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "8": {
+  "Steak Fries": {
+   "Ingredient": [],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "9": {
+  "Italian Beef Sandwich": {
+   "Ingredient": [
+    "Beef"
+   ],
+   "Flavor": [
+    "Italian"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "10": {
+  "Red Beans & Butternut Squash": {
+   "Ingredient": [],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "11": {
+  "Southwest Corn & Bean Wrap": {
+   "Ingredient": [
+    "Corn"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "12": {
+  "Garlicky Chickpea Rice with Broccoli": {
+   "Ingredient": [
+    "Broccoli",
+    "Rice"
+   ],
+   "Flavor": [
+    "Garlic"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "13": {
+  "Asparagus & Red Peppers": {
+   "Ingredient": [
+    "Red Pepper"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "14": {
+  "Chicken Butternut Tagine": {
+   "Ingredient": [
+    "Chicken"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "15": {
+  "Fish Romesco": {
+   "Ingredient": [
+    "Fish"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "16": {
+  "Plant-based Meatball Teriyaki": {
+   "Ingredient": [],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "17": {
+  "Sun-dried Tomato Mushroom Baked Pasta": {
+   "Ingredient": [
+    "Mushroom",
+    "Tomato",
+    "Pasta"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "18": {
+  "Herb Roasted Potatoes": {
+   "Ingredient": [
+    "Potato"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "19": {
+  "Chicken & Dumplings": {
+   "Ingredient": [
+    "Chicken"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "20": {
+  "Fish with Roasted Tomatoes & Onions": {
+   "Ingredient": [
+    "Tomato",
+    "Onion",
+    "Fish"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "21": {
+  "Cranberry Kale Quinoa": {
+   "Ingredient": [],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "22": {
+  "Vegetable Lasagna": {
+   "Ingredient": [
+    "Vegetable"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "23": {
+  "Cilantro Rice": {
+   "Ingredient": [
+    "Rice"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "24": {
+  "Pinto Beans": {
+   "Ingredient": [],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "25": {
+  "Sweet Chili Chicken": {
+   "Ingredient": [
+    "Chicken"
+   ],
+   "Flavor": [
+    "Sweet"
+   ],
+   "Allergies": [],
+   "Soup": false
+  },
+  "Coconut Sweet Chili Chicken": {
+   "Ingredient": [
+    "Chicken"
+   ],
+   "Flavor": [
+    "Sweet"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "26": {
+  "Beef Barbacoa": {
+   "Ingredient": [
+    "Beef"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "27": {
+  "Tofu with Mango Salsa": {
+   "Ingredient": [
+    "Tofu"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "28": {
+  "Plant-based Picadillo": {
+   "Ingredient": [],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "29": {
+  "Cheese Ravioli": {
+   "Ingredient": [],
+   "Flavor": [
+    "Cheese"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "30": {
+  "Vegetable Fried Rice": {
+   "Ingredient": [
+    "Vegetable",
+    "Rice"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "31": {
+  "Stir-fried Snap Peas & Mushrooms": {
+   "Ingredient": [
+    "Mushroom"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "32": {
+  "Fish Yellow Curry": {
+   "Ingredient": [
+    "Fish"
+   ],
+   "Flavor": [
+    "Curry"
+   ],
+   "Allergies": [],
+   "Soup": false
+  },
+  "Fish with Coconut Curry ": {
+   "Ingredient": [
+    "Fish"
+   ],
+   "Flavor": [
+    "Curry"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "33": {
+  "Coconut Sweet Chili Chicken": {
+   "Ingredient": [
+    "Chicken"
+   ],
+   "Flavor": [
+    "Sweet"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "34": {
+  "Eggplant Bean Balsamico": {
+   "Ingredient": [
+    "Eggplant"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "35": {
+  "Pesto Cream Tortellini": {
+   "Ingredient": [],
+   "Flavor": [
+    "Cream"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "36": {
+  "Coconut Mango Rice": {
+   "Ingredient": [
+    "Rice"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "37": {
+  "Black Beans with Plantains": {
+   "Ingredient": [],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "38": {
+  "Fish with Tropical Fruit Salsa": {
+   "Ingredient": [
+    "Fish"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "39": {
+  "Chimichurri Pork Tenderloin": {
+   "Ingredient": [
+    "Pork"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "40": {
+  "Hoisin Tofu & Broccoli": {
+   "Ingredient": [
+    "Broccoli",
+    "Tofu"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "41": {
+  "Creamy Mushroom, Kale Pasta": {
+   "Ingredient": [
+    "Mushroom",
+    "Pasta"
+   ],
+   "Flavor": [
+    "Cream"
+   ],
+   "Allergies": [],
+   "Soup": false
+  },
+  "Creamy Mushroom Kale Pasta": {
+   "Ingredient": [
+    "Mushroom",
+    "Pasta"
+   ],
+   "Flavor": [
+    "Cream"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "42": {
+  "Spanish Rice": {
+   "Ingredient": [
+    "Rice"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "43": {
+  "Roasted Eggplant, Green Bean & Tomato Ragu": {
+   "Ingredient": [
+    "Tomato",
+    "Eggplant"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "44": {
+  "Braised Beef Guisada": {
+   "Ingredient": [
+    "Beef"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "45": {
+  "Cheddar Chive & Potato Crusted Cod": {
+   "Ingredient": [
+    "Potato",
+    "Cod"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "46": {
+  "Southwest Cheddar Potato": {
+   "Ingredient": [
+    "Potato"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "47": {
+  "Blackened Tofu with Pico de Gallo": {
+   "Ingredient": [
+    "Tofu"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "48": {
+  "Jasmine Rice": {
+   "Ingredient": [
+    "Rice"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "49": {
+  "Smoked Pork Ribs": {
+   "Ingredient": [
+    "Pork"
+   ],
+   "Flavor": [
+    "Smoked"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "50": {
+  "Orange Chicken": {
+   "Ingredient": [
+    "Chicken"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "51": {
+  "Red Beans & Rice": {
+   "Ingredient": [
+    "Rice"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "52": {
+  "Chik'n Enchiladas with Poblano Cream Sauce": {
+   "Ingredient": [],
+   "Flavor": [
+    "Cream"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "53": {
+  "Macaroni & Cheese": {
+   "Ingredient": [],
+   "Flavor": [
+    "Cheese"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "54": {
+  "Honey Buffalo Chicken": {
+   "Ingredient": [
+    "Chicken"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "55": {
+  "Barbecue Pork": {
+   "Ingredient": [
+    "Pork"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "56": {
+  "Black-eyed Pea Rice": {
+   "Ingredient": [
+    "Rice"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "57": {
+  "Navy Bean, Carrot & Kale": {
+   "Ingredient": [
+    "Carrot"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "58": {
+  "PAOW Snap Pea Stir-fry": {
+   "Ingredient": [],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "59": {
+  "Fiesta Rice": {
+   "Ingredient": [
+    "Rice"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "60": {
+  "Sweet & Sour Chicken Stir Fry": {
+   "Ingredient": [
+    "Chicken"
+   ],
+   "Flavor": [
+    "Sweet",
+    "Sour"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "61": {
+  "Tortilla Crusted Tilapia": {
+   "Ingredient": [
+    "Tilapia"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "62": {
+  "Garbanzo Tomato Curry": {
+   "Ingredient": [
+    "Tomato"
+   ],
+   "Flavor": [
+    "Curry"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "63": {
+  "Quinoa Medley with Kale": {
+   "Ingredient": [],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "64": {
+  "Tofu Stir Fry": {
+   "Ingredient": [
+    "Tofu"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "65": {
+  "Sundried Tomato & Broccoli Cheddar Pasta Bake": {
+   "Ingredient": [
+    "Broccoli",
+    "Tomato",
+    "Pasta"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "66": {
+  "Steamed Rice": {
+   "Ingredient": [
+    "Rice"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "67": {
+  "Gochujang Beef Tostadas": {
+   "Ingredient": [
+    "Beef"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "68": {
+  "Honey Lime Roasted Chicken Legs\n": {
+   "Ingredient": [
+    "Chicken"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "69": {
+  "Charro Beans": {
+   "Ingredient": [],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "70": {
+  "Plant-based PAOW & Cauliflower Gratin": {
+   "Ingredient": [
+    "Cauliflower"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "71": {
+  "Quinoa Garbanzo Patty with Sundried Tomato Relish": {
+   "Ingredient": [
+    "Tomato"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "72": {
+  "Smoked Gouda Pasta Bake": {
+   "Ingredient": [
+    "Pasta"
+   ],
+   "Flavor": [
+    "Smoked"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "73": {
+  "Spaghetti Pasta": {
+   "Ingredient": [
+    "Pasta",
+    "Spaghetti"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "74": {
+  "Italian Sausage Ragout\n": {
+   "Ingredient": [
+    "Sausage"
+   ],
+   "Flavor": [
+    "Italian"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "75": {
+  "Wicked Wok Wings Wednesday": {
+   "Ingredient": [],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "76": {
+  "Garlic Cheddar Biscuits": {
+   "Ingredient": [],
+   "Flavor": [
+    "Garlic"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "77": {
+  "Plant-based PAOW Tetrazzini": {
+   "Ingredient": [],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "78": {
+  "Tofu Curry Rice": {
+   "Ingredient": [
+    "Tofu",
+    "Rice"
+   ],
+   "Flavor": [
+    "Curry"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "79": {
+  "Toasted Southwest Corn & Bean Wrap": {
+   "Ingredient": [
+    "Corn"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "80": {
+  "Broccoli Cheddar Rice": {
+   "Ingredient": [
+    "Broccoli",
+    "Rice"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "81": {
+  "Garlic Ginger Pork": {
+   "Ingredient": [
+    "Pork"
+   ],
+   "Flavor": [
+    "Garlic",
+    "Ginger"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "82": {
+  "Crispy Fried Flounder": {
+   "Ingredient": [],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "83": {
+  "Eggplant Ratatouille": {
+   "Ingredient": [
+    "Eggplant"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "84": {
+  "Lentils with Butternut Squash": {
+   "Ingredient": [],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "85": {
+  "Plant-based Teriyaki Meatballs": {
+   "Ingredient": [],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "86": {
+  "Greek Spinach Rice": {
+   "Ingredient": [
+    "Spinach",
+    "Rice"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "87": {
+  "Portuguese Style Shrimp Turnover": {
+   "Ingredient": [
+    "Shrimp"
+   ],
+   "Flavor": [],
+   "Allergies": [
+    "Korean"
+   ],
+   "Soup": false
+  }
+ },
+ "88": {
+  "Grilled Chicken with Feta Olive Relish": {
+   "Ingredient": [
+    "Chicken"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "89": {
+  "Simmered Black Beans & Plantains": {
+   "Ingredient": [],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "90": {
+  "Plant-based Corn & Sausage Casserole": {
+   "Ingredient": [
+    "Corn",
+    "Sausage"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "91": {
+  "Coconut Thai Tofu & Sweet Potatoes": {
+   "Ingredient": [
+    "Tofu",
+    "Potato"
+   ],
+   "Flavor": [
+    "Sweet",
+    "Thai"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "92": {
+  "Pepper Jack Mushroom & Kale Frittata": {
+   "Ingredient": [
+    "Mushroom"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "93": {
+  "Cilantro Lime Rice": {
+   "Ingredient": [
+    "Rice"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "94": {
+  "Beef Barbacoa\n": {
+   "Ingredient": [
+    "Beef"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "95": {
+  "Tofu Mango Rice": {
+   "Ingredient": [
+    "Tofu",
+    "Rice"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "96": {
+  "Cheese Enchiladas": {
+   "Ingredient": [],
+   "Flavor": [
+    "Cheese"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "97": {
+  "Fettuccini Pasta": {
+   "Ingredient": [
+    "Pasta"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "98": {
+  "Chicken Spinach Alfredo": {
+   "Ingredient": [
+    "Spinach",
+    "Chicken"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "99": {
+  "Italian Pork Meatballs with Marinara": {
+   "Ingredient": [
+    "Pork"
+   ],
+   "Flavor": [
+    "Italian"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "100": {
+  "Italian Roasted Tempeh Succotash": {
+   "Ingredient": [],
+   "Flavor": [
+    "Italian"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "101": {
+  "Barbecue Jackfruit": {
+   "Ingredient": [],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "102": {
+  "Cheese Stuffed Tortellini with Pesto": {
+   "Ingredient": [],
+   "Flavor": [
+    "Cheese"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "103": {
+  "Garlic Herb Breadsticks with Dipping Sauce": {
+   "Ingredient": [],
+   "Flavor": [
+    "Garlic"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "104": {
+  "Barbecue Steak Fries": {
+   "Ingredient": [],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "105": {
+  "Blackened Catfish with Lemon Vinaigrette": {
+   "Ingredient": [],
+   "Flavor": [
+    "Vinaigrette"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "106": {
+  "Chicken Cordon Bleu": {
+   "Ingredient": [
+    "Chicken"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "107": {
+  "Vegetable Eggrolls": {
+   "Ingredient": [
+    "Vegetable"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "108": {
+  "Saffron Basmati Rice": {
+   "Ingredient": [
+    "Rice"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "109": {
+  "Creamy Mushroom Kale Pasta": {
+   "Ingredient": [
+    "Mushroom",
+    "Pasta"
+   ],
+   "Flavor": [
+    "Cream"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "110": {
+  "Southwest Mac & Cheese": {
+   "Ingredient": [],
+   "Flavor": [
+    "Cheese"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "111": {
+  "Barbecue Smoked Sausage\n": {
+   "Ingredient": [
+    "Sausage"
+   ],
+   "Flavor": [
+    "Smoked"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "112": {
+  "Beer Can Roasted Chicken\n": {
+   "Ingredient": [
+    "Chicken"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "113": {
+  "Baked Beans": {
+   "Ingredient": [],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "114": {
+  "Edamame Fried Rice": {
+   "Ingredient": [
+    "Rice"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "115": {
+  "Crispy Buffalo Tofu": {
+   "Ingredient": [
+    "Tofu"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "116": {
+  "Crispy Fried Corn Nuggets": {
+   "Ingredient": [
+    "Corn"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "117": {
+  "Mashed Potatoes": {
+   "Ingredient": [
+    "Potato"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "118": {
+  "Fried Chicken and Waffles": {
+   "Ingredient": [
+    "Chicken"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "119": {
+  "Lemon Garlic Swai Fillets": {
+   "Ingredient": [
+    "Fillet"
+   ],
+   "Flavor": [
+    "Garlic"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "120": {
+  "Crispy Fried Okra": {
+   "Ingredient": [],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "121": {
+  "Roasted Tempeh & Portobellos with Chimichurri": {
+   "Ingredient": [],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "122": {
+  "Cheese Enchiladas with Poblano Cream": {
+   "Ingredient": [],
+   "Flavor": [
+    "Cream",
+    "Cheese"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "123": {
+  "Honey Sriracha Chicken Thighs": {
+   "Ingredient": [
+    "Chicken"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "124": {
+  "Spanish Style Fisherman's Stew": {
+   "Ingredient": [
+    "Fish"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "125": {
+  "Slow Simmered Black-eyed Peas & Okra": {
+   "Ingredient": [],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "126": {
+  "Plant-based PAOW Fried Rice": {
+   "Ingredient": [
+    "Rice"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "127": {
+  "Baked Pasta Florentine": {
+   "Ingredient": [
+    "Pasta"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "128": {
+  "Crispy Macaroni & Cheese Wedges": {
+   "Ingredient": [],
+   "Flavor": [
+    "Cheese"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "129": {
+  "Barbecue Pulled Pork\n": {
+   "Ingredient": [
+    "Pork"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "130": {
+  "Wild Rice Pilaf": {
+   "Ingredient": [
+    "Rice"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "131": {
+  "PAOW & Sugar Snap Stir Fry": {
+   "Ingredient": [],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "132": {
+  "Navy Beans with Carrots and Kale": {
+   "Ingredient": [
+    "Carrot"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "133": {
+  "Steamed Basmati Rice": {
+   "Ingredient": [
+    "Rice"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "134": {
+  "Butter Chicken Thighs": {
+   "Ingredient": [
+    "Chicken"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "135": {
+  "Cod Fish Vindaloo": {
+   "Ingredient": [
+    "Cod",
+    "Fish"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "136": {
+  "Potato & Tempeh Curry": {
+   "Ingredient": [
+    "Potato"
+   ],
+   "Flavor": [
+    "Curry"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "137": {
+  "Simmered Lentils Cauliflower & Spinach": {
+   "Ingredient": [
+    "Spinach",
+    "Cauliflower"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "138": {
+  "Ricotta Stuffed Shells": {
+   "Ingredient": [],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "139": {
+  "Warm Naan Bread Dippers": {
+   "Ingredient": [],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "140": {
+  "Spaghetti Squash with Broccoli & Red Peppers": {
+   "Ingredient": [
+    "Broccoli",
+    "Red Pepper",
+    "Spaghetti"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "141": {
+  "Saut\u00e9ed Fish with Lemon Caper Vinaigrette": {
+   "Ingredient": [
+    "Fish"
+   ],
+   "Flavor": [
+    "Vinaigrette"
+   ],
+   "Allergies": [],
+   "Soup": false
+  },
+  "Cilantro Lime Vinaigrette Fish": {
+   "Ingredient": [
+    "Fish"
+   ],
+   "Flavor": [
+    "Vinaigrette"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "142": {
+  "Basmati Rice": {
+   "Ingredient": [
+    "Rice"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "143": {
+  "Balsamic Roasted Mushrooms": {
+   "Ingredient": [
+    "Mushroom"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "144": {
+  "Coconut Tomato Curry Beef": {
+   "Ingredient": [
+    "Tomato",
+    "Beef"
+   ],
+   "Flavor": [
+    "Curry"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "145": {
+  "Chicken Marinara Mozzarella Sandwich": {
+   "Ingredient": [
+    "Chicken"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "146": {
+  "Cauliflower PAOW Gratin": {
+   "Ingredient": [
+    "Cauliflower"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "147": {
+  "Quinoa Chickpea Patty with Tomato Relish": {
+   "Ingredient": [
+    "Tomato"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "148": {
+  "Spinach Mushroom Quiche": {
+   "Ingredient": [
+    "Mushroom",
+    "Spinach"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "149": {
+  "Cheddar Chive Potato Crusted Chicken": {
+   "Ingredient": [
+    "Potato",
+    "Chicken"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "150": {
+  "Edamame Noodle Bowl": {
+   "Ingredient": [],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "151": {
+  "Haricots Verts & Mushrooms": {
+   "Ingredient": [
+    "Mushroom"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "152": {
+  "Coconut Thai Chili Tofu & Sweet Potato": {
+   "Ingredient": [
+    "Tofu",
+    "Potato"
+   ],
+   "Flavor": [
+    "Sweet",
+    "Thai"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "153": {
+  "Spinach Alfredo Lasagna": {
+   "Ingredient": [
+    "Spinach"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "154": {
+  "Texas Ranchero Beans": {
+   "Ingredient": [],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "155": {
+  "Cilantro Lime Vinaigrette Fish": {
+   "Ingredient": [
+    "Fish"
+   ],
+   "Flavor": [
+    "Vinaigrette"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "156": {
+  "Grilled Chicken with Roasted Corn Salsa\n": {
+   "Ingredient": [
+    "Corn",
+    "Chicken"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "157": {
+  "Three Pepper Tofu with Plum Sauce": {
+   "Ingredient": [
+    "Tofu"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "158": {
+  "Tomato Pesto Cauliflower Flatbread": {
+   "Ingredient": [
+    "Tomato",
+    "Cauliflower"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "159": {
+  "Kale Mushroom Frittata": {
+   "Ingredient": [
+    "Mushroom"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "160": {
+  "Fish Veracruz": {
+   "Ingredient": [
+    "Fish"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "161": {
+  "BBQ Jackfruit & Corn Stuffed Peppers": {
+   "Ingredient": [
+    "Corn"
+   ],
+   "Flavor": [
+    "BBQ"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "162": {
+  "Southwest Cheddar Potato Casserole": {
+   "Ingredient": [
+    "Potato"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "163": {
+  "Sauteed Cabbage & Green Beans": {
+   "Ingredient": [
+    "Green Beans"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "164": {
+  "Chimichurri Tempeh": {
+   "Ingredient": [],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "165": {
+  "Tropical Coconut Rice": {
+   "Ingredient": [
+    "Rice"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "166": {
+  "Calabasa Corn Succotash": {
+   "Ingredient": [
+    "Corn"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "167": {
+  "Chile Lime Smoked Chicken": {
+   "Ingredient": [
+    "Chicken"
+   ],
+   "Flavor": [
+    "Smoked"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "168": {
+  "Salmon with Pineapple Salsa": {
+   "Ingredient": [],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "169": {
+  "Tofu, Potato & Okra Ragu": {
+   "Ingredient": [
+    "Tofu",
+    "Potato"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "170": {
+  "Honey Sriracha Shrimp": {
+   "Ingredient": [
+    "Shrimp"
+   ],
+   "Flavor": [],
+   "Allergies": [
+    "Korean"
+   ],
+   "Soup": false
+  }
+ },
+ "171": {
+  "Beef in Mushroom Demi Glace": {
+   "Ingredient": [
+    "Mushroom",
+    "Beef"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "172": {
+  "Tempeh Potato Masala": {
+   "Ingredient": [
+    "Potato"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "173": {
+  "Thai Chili Tofu": {
+   "Ingredient": [
+    "Tofu"
+   ],
+   "Flavor": [
+    "Thai"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "174": {
+  "Chimichurri Chicken Breast\n": {
+   "Ingredient": [
+    "Chicken"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "175": {
+  "Roasted Potatoes": {
+   "Ingredient": [
+    "Potato"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "176": {
+  "Spinach and Goat Cheese Timbales": {
+   "Ingredient": [
+    "Spinach"
+   ],
+   "Flavor": [
+    "Cheese"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "177": {
+  "Tortilla Crusted Tilapia with Avocado Relish": {
+   "Ingredient": [
+    "Tilapia"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "178": {
+  "Roasted Red Pepper Chickpeas & Kale": {
+   "Ingredient": [
+    "Red Pepper"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "179": {
+  "Green Chicken Pozole\n": {
+   "Ingredient": [
+    "Chicken"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "180": {
+  "Italian Spicy Pork Sausage\n": {
+   "Ingredient": [
+    "Pork",
+    "Sausage"
+   ],
+   "Flavor": [
+    "Spicy",
+    "Italian"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "181": {
+  "Roasted Mushroom and Basil Spaghetti in Cream Sauce": {
+   "Ingredient": [
+    "Mushroom",
+    "Spaghetti"
+   ],
+   "Flavor": [
+    "Cream"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "182": {
+  "Parmesan Chicken ": {
+   "Ingredient": [
+    "Chicken"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "183": {
+  "Lentil and Corn Stew": {
+   "Ingredient": [
+    "Corn"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "184": {
+  "Margherita Grilled Cheese Sandwich": {
+   "Ingredient": [],
+   "Flavor": [
+    "Cheese"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "185": {
+  "S'mores Pizza": {
+   "Ingredient": [
+    "Pizza"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "186": {
+  "Corn Chowder": {
+   "Ingredient": [
+    "Corn"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": true
+  }
+ },
+ "187": {
+  "Thai Style Red Coconut Shrimp": {
+   "Ingredient": [
+    "Shrimp"
+   ],
+   "Flavor": [
+    "Thai"
+   ],
+   "Allergies": [
+    "Korean"
+   ],
+   "Soup": false
+  }
+ },
+ "188": {
+  "Sweet and Spicy Shicken with Pickled Vegetables\n": {
+   "Ingredient": [
+    "Vegetable"
+   ],
+   "Flavor": [
+    "Spicy",
+    "Sweet"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "189": {
+  "Orange Crispy Cauliflower": {
+   "Ingredient": [
+    "Cauliflower"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "190": {
+  "Sesame Ginger Tempeh with Fried Carrots and Cilantro": {
+   "Ingredient": [
+    "Carrot"
+   ],
+   "Flavor": [
+    "Ginger"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "191": {
+  "Green Tea Late": {
+   "Ingredient": [],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "192": {
+  "Monte Cristo Sandwich": {
+   "Ingredient": [],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "193": {
+  "Wedge Potatoes & Cilantro Lime Eggless Aioli": {
+   "Ingredient": [
+    "Potato"
+   ],
+   "Flavor": [
+    "Aioli"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "194": {
+  "Sweet and Sour Tofu with Pineapple Peppers and Onions": {
+   "Ingredient": [
+    "Tofu",
+    "Onion"
+   ],
+   "Flavor": [
+    "Sweet",
+    "Sour"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "195": {
+  "Grilled Chicken Breast with Lemon Vinaigrette": {
+   "Ingredient": [
+    "Chicken"
+   ],
+   "Flavor": [
+    "Vinaigrette"
+   ],
+   "Allergies": [],
+   "Soup": false
+  },
+  "Grilled Chicken Thighs, Sesame Soy Vinaigrette": {
+   "Ingredient": [
+    "Chicken"
+   ],
+   "Flavor": [
+    "Vinaigrette"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "196": {
+  "Herb Roasted Vegetables": {
+   "Ingredient": [
+    "Vegetable"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "197": {
+  "Italian Wedding Soup": {
+   "Ingredient": [],
+   "Flavor": [
+    "Italian"
+   ],
+   "Allergies": [],
+   "Soup": true
+  }
+ },
+ "198": {
+  "Chicken Fried Steak with Creamy Gravy": {
+   "Ingredient": [
+    "Chicken"
+   ],
+   "Flavor": [
+    "Cream"
+   ],
+   "Allergies": [],
+   "Soup": false
+  },
+  "Chicken with Ancho Cream Sauce": {
+   "Ingredient": [
+    "Chicken"
+   ],
+   "Flavor": [
+    "Cream"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "199": {
+  "Vegetable Stuffed Basa Fillet with Citrus Vinaigrette": {
+   "Ingredient": [
+    "Vegetable",
+    "Fillet"
+   ],
+   "Flavor": [
+    "Vinaigrette"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "200": {
+  "Pesto Pasta with Spinach and Roasted Tomatoes": {
+   "Ingredient": [
+    "Spinach",
+    "Tomato",
+    "Pasta"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "201": {
+  "Edamame Hummus and Baked Cauliflower Toasts": {
+   "Ingredient": [
+    "Cauliflower"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "202": {
+  "Cheese and Chipotle Migas": {
+   "Ingredient": [],
+   "Flavor": [
+    "Cheese"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "203": {
+  "Shredded Beef Chilaquiles con Queso": {
+   "Ingredient": [
+    "Beef"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "204": {
+  "Fried Chicken Cutlets": {
+   "Ingredient": [
+    "Chicken"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "205": {
+  "Belgian Waffles": {
+   "Ingredient": [],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "206": {
+  "Fresh Vegetables": {
+   "Ingredient": [
+    "Vegetable"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "207": {
+  "Tandoori Spiced Chicken\n": {
+   "Ingredient": [
+    "Chicken"
+   ],
+   "Flavor": [
+    "Spiced"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "208": {
+  "Broiled Swai Fillet & Pineapple Pico": {
+   "Ingredient": [
+    "Fillet"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "209": {
+  "Saag Tofu": {
+   "Ingredient": [
+    "Tofu"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "210": {
+  "Roasted Tempeh, Crispy Green Beans with Spicy Garlic": {
+   "Ingredient": [
+    "Green Beans"
+   ],
+   "Flavor": [
+    "Spicy",
+    "Garlic"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "211": {
+  "Garlic Mashed Potatoes": {
+   "Ingredient": [
+    "Potato"
+   ],
+   "Flavor": [
+    "Garlic"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "212": {
+  "Beef Bourguignon\n": {
+   "Ingredient": [
+    "Beef"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "213": {
+  "Lemon Pepper Tilapia with Mandarin Orange Relish": {
+   "Ingredient": [
+    "Tilapia"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "214": {
+  "PAOW and Vegetable Fried Rice": {
+   "Ingredient": [
+    "Vegetable",
+    "Rice"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "215": {
+  "BBQ  Smoked Tofu & Roasted Sweet Potatoes": {
+   "Ingredient": [
+    "Tofu",
+    "Potato"
+   ],
+   "Flavor": [
+    "Sweet",
+    "BBQ",
+    "Smoked"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "216": {
+  "Haricots Verts & Roasted Mushrooms": {
+   "Ingredient": [
+    "Mushroom"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "217": {
+  "Smoked Red Fish with Grapefruit Vinaigrette": {
+   "Ingredient": [
+    "Fish"
+   ],
+   "Flavor": [
+    "Vinaigrette",
+    "Smoked"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "218": {
+  "Chicken Gumbo": {
+   "Ingredient": [
+    "Chicken"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "219": {
+  "Braised Jackfruit & Vegetable Bean Chili": {
+   "Ingredient": [
+    "Vegetable"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "220": {
+  "Cheese Manicotti with Creamy Marinara": {
+   "Ingredient": [],
+   "Flavor": [
+    "Cream",
+    "Cheese"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "221": {
+  "Steamed Jasmine Rice": {
+   "Ingredient": [
+    "Rice"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "222": {
+  "Korean Style Beef and Pork Meatballs": {
+   "Ingredient": [
+    "Beef",
+    "Pork"
+   ],
+   "Flavor": [
+    "Korean"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "223": {
+  "Grilled Chicken Thighs, Sesame Soy Vinaigrette": {
+   "Ingredient": [
+    "Chicken"
+   ],
+   "Flavor": [
+    "Vinaigrette"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "224": {
+  "Hoisin Eggplant": {
+   "Ingredient": [
+    "Eggplant"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "225": {
+  "Crispy Fried Eggrolls with Spicy Dipping Sauce": {
+   "Ingredient": [],
+   "Flavor": [
+    "Spicy"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "226": {
+  "Garlic and Herb Tossed Baby Potatoes": {
+   "Ingredient": [
+    "Potato"
+   ],
+   "Flavor": [
+    "Garlic"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "227": {
+  "Broiled cod topped with White Wine Cream Shrimp Sauce": {
+   "Ingredient": [
+    "Shrimp"
+   ],
+   "Flavor": [
+    "Cream"
+   ],
+   "Allergies": [
+    "Korean"
+   ],
+   "Soup": false
+  }
+ },
+ "228": {
+  "Baked Chicken, Red Pepper and Parsley Vinaigrette\n": {
+   "Ingredient": [
+    "Red Pepper",
+    "Chicken"
+   ],
+   "Flavor": [
+    "Vinaigrette"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "229": {
+  "Tuscan Northern Bean and Spinach Stew": {
+   "Ingredient": [
+    "Spinach"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "230": {
+  "Stuffed Shells with Creamy Marinara Sauce": {
+   "Ingredient": [],
+   "Flavor": [
+    "Cream"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "231": {
+  "Cheese Roasted Red Potatoes": {
+   "Ingredient": [
+    "Potato"
+   ],
+   "Flavor": [
+    "Cheese"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "232": {
+  "Chipotle BBQ Glazed Smoked Chicken\n": {
+   "Ingredient": [
+    "Chicken"
+   ],
+   "Flavor": [
+    "BBQ",
+    "Smoked"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "233": {
+  "Creole Shrimp Tomato Ragout": {
+   "Ingredient": [
+    "Tomato",
+    "Shrimp"
+   ],
+   "Flavor": [],
+   "Allergies": [
+    "Korean"
+   ],
+   "Soup": false
+  }
+ },
+ "234": {
+  "Tofu and Corn Succotash": {
+   "Ingredient": [
+    "Corn",
+    "Tofu"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "235": {
+  "Baked Ricotta Pasta": {
+   "Ingredient": [
+    "Pasta"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "236": {
+  "Southwest Rice Pilaf": {
+   "Ingredient": [
+    "Rice"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "237": {
+  "Chicken with Ancho Cream Sauce": {
+   "Ingredient": [
+    "Chicken"
+   ],
+   "Flavor": [
+    "Cream"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "238": {
+  "Smoked Sausage with Peppers and Onions": {
+   "Ingredient": [
+    "Onion",
+    "Sausage"
+   ],
+   "Flavor": [
+    "Smoked"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "239": {
+  "Whole Grain Red Quinoa with Kale and Cranberry": {
+   "Ingredient": [],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "240": {
+  "Cheese Tortellini with Tomato and Basil": {
+   "Ingredient": [
+    "Tomato"
+   ],
+   "Flavor": [
+    "Cheese"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "241": {
+  "Bacon Ranch Pizza": {
+   "Ingredient": [
+    "Pizza"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "242": {
+  "Margarita Pizza": {
+   "Ingredient": [
+    "Pizza"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "243": {
+  "Chicken Pesto Mayo Sandwich": {
+   "Ingredient": [
+    "Chicken"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "244": {
+  "Seasoned Steak Fries": {
+   "Ingredient": [],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "245": {
+  "Tilapia Gratinata": {
+   "Ingredient": [
+    "Tilapia"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "246": {
+  "Rice Cheddar Broccoli": {
+   "Ingredient": [
+    "Broccoli",
+    "Rice"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "247": {
+  "Tofu Tomato Coconut Curry": {
+   "Ingredient": [
+    "Tofu",
+    "Tomato"
+   ],
+   "Flavor": [
+    "Curry"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "248": {
+  "Buffalo Chicken with Blue Cheese Pizza": {
+   "Ingredient": [
+    "Chicken",
+    "Pizza"
+   ],
+   "Flavor": [
+    "Cheese"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "249": {
+  "Artichoke Sundried Tomato Pesto Pizza": {
+   "Ingredient": [
+    "Tomato",
+    "Pizza"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "250": {
+  "Mexican Style Chicken Lasagna": {
+   "Ingredient": [
+    "Chicken"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "251": {
+  "Rice Corn and Tofu": {
+   "Ingredient": [
+    "Corn",
+    "Tofu",
+    "Rice"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "252": {
+  "Pork Tenderloin with Tropical Relish": {
+   "Ingredient": [
+    "Pork"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "253": {
+  "Spinach Parmesan Gnocchi": {
+   "Ingredient": [
+    "Spinach"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "254": {
+  "Black Bean and Plantains": {
+   "Ingredient": [],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "255": {
+  "Prosciutto Spinach Pizza": {
+   "Ingredient": [
+    "Spinach",
+    "Pizza"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "256": {
+  "Zucchini Feta Pizza": {
+   "Ingredient": [
+    "Pizza"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "257": {
+  "Thai Red Curry Chicken": {
+   "Ingredient": [
+    "Chicken"
+   ],
+   "Flavor": [
+    "Curry",
+    "Thai"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "258": {
+  "Fish with Coconut Curry ": {
+   "Ingredient": [
+    "Fish"
+   ],
+   "Flavor": [
+    "Curry"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "259": {
+  "Herb Parmesan Potato Croquettes": {
+   "Ingredient": [
+    "Potato"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "260": {
+  "Eggplant Hoisin with Peppers and Onions": {
+   "Ingredient": [
+    "Onion",
+    "Eggplant"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "261": {
+  "BBQ Chicken Pizza": {
+   "Ingredient": [
+    "Chicken",
+    "Pizza"
+   ],
+   "Flavor": [
+    "BBQ"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "262": {
+  "Black Bean Tostada Pizza with Chipotle Crema": {
+   "Ingredient": [
+    "Pizza"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "263": {
+  "Battered Cod Fish with Tartar Sauce": {
+   "Ingredient": [
+    "Cod",
+    "Fish"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "264": {
+  "Chicken Tika Masala": {
+   "Ingredient": [
+    "Chicken"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "265": {
+  "Rice Tofu Mango": {
+   "Ingredient": [
+    "Tofu",
+    "Rice"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "266": {
+  "Pasta Primavera with Fresh Mozzarella": {
+   "Ingredient": [
+    "Pasta"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "267": {
+  "Jalapeno Bacon Poppers Pizza": {
+   "Ingredient": [
+    "Pizza"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "268": {
+  "Vegetable Supreme Pizza": {
+   "Ingredient": [
+    "Vegetable",
+    "Pizza"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "269": {
+  "Mac and Cheese": {
+   "Ingredient": [],
+   "Flavor": [
+    "Cheese"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "270": {
+  "BBQ Chopped Beef": {
+   "Ingredient": [
+    "Beef"
+   ],
+   "Flavor": [
+    "BBQ"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "271": {
+  "Chicken Dumplings with Sesame Ginger Soy": {
+   "Ingredient": [
+    "Chicken"
+   ],
+   "Flavor": [
+    "Ginger"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "272": {
+  "Fried Rice with Tofu": {
+   "Ingredient": [
+    "Tofu",
+    "Rice"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "273": {
+  "Grilled Chicken ": {
+   "Ingredient": [
+    "Chicken"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "274": {
+  "Honey Soy Glazed Chicken ": {
+   "Ingredient": [
+    "Chicken"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "275": {
+  "Pork Loin Roast with Spicy Sweet and Sour Sauce": {
+   "Ingredient": [
+    "Pork"
+   ],
+   "Flavor": [
+    "Spicy",
+    "Sweet",
+    "Sour"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "276": {
+  "Grilled Tofu with Ginger Sesame Soy": {
+   "Ingredient": [
+    "Tofu"
+   ],
+   "Flavor": [
+    "Ginger"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "277": {
+  "Chick Pea Curry Masala": {
+   "Ingredient": [],
+   "Flavor": [
+    "Curry"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "278": {
+  "Penne Pesto": {
+   "Ingredient": [],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "279": {
+  "Chicken Carbonara with Bacon": {
+   "Ingredient": [
+    "Chicken"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "280": {
+  "Fish with Fresh Pineapple Salsa": {
+   "Ingredient": [
+    "Fish"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "281": {
+  "Eggplant Mushroom Ragout": {
+   "Ingredient": [
+    "Mushroom",
+    "Eggplant"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "282": {
+  "Rice Tomato Curry with Tofu": {
+   "Ingredient": [
+    "Tofu",
+    "Tomato",
+    "Rice"
+   ],
+   "Flavor": [
+    "Curry"
+   ],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "283": {
+  "Grilled Beef Flank Steak ": {
+   "Ingredient": [
+    "Beef"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "284": {
+  "Seafood Cakes": {
+   "Ingredient": [],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "285": {
+  "Pasta Alfredo": {
+   "Ingredient": [
+    "Pasta"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "286": {
+  "Bean Tofu Quinoa Rice Medley": {
+   "Ingredient": [
+    "Tofu",
+    "Rice"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "287": {
+  "Roasted Green Chile Rice": {
+   "Ingredient": [
+    "Rice"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "288": {
+  "Grilled Southwest Beef Steaks": {
+   "Ingredient": [
+    "Beef"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "289": {
+  "Fiesta Chicken with Cheddar Sauce": {
+   "Ingredient": [
+    "Chicken"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "290": {
+  "Pinto Bean ": {
+   "Ingredient": [],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "291": {
+  "Southwest Potato Casserole": {
+   "Ingredient": [
+    "Potato"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "292": {
+  "Rice Pilaf": {
+   "Ingredient": [
+    "Rice"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "293": {
+  "Pot Crusted Cod Fish": {
+   "Ingredient": [
+    "Cod",
+    "Fish"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "294": {
+  "Chicken with Jalapeno Corn Salsa": {
+   "Ingredient": [
+    "Corn",
+    "Chicken"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "295": {
+  "Baked Pasta with Ricotta": {
+   "Ingredient": [
+    "Pasta"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "296": {
+  "Navy Bean Carrot Potato Stew": {
+   "Ingredient": [
+    "Potato",
+    "Carrot"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "297": {
+  "dinner available at North and Seibel serveries\n": {
+   "Ingredient": [],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "298": {
+  "Wild Rice": {
+   "Ingredient": [
+    "Rice"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "299": {
+  "Chicken Alfredo with Mushroom": {
+   "Ingredient": [
+    "Mushroom",
+    "Chicken"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "300": {
+  "Shrimp with Spicy Sweet and Sour Sauce": {
+   "Ingredient": [
+    "Shrimp"
+   ],
+   "Flavor": [
+    "Spicy",
+    "Sweet",
+    "Sour"
+   ],
+   "Allergies": [
+    "Korean"
+   ],
+   "Soup": false
+  }
+ },
+ "301": {
+  "Pasta Pesto with Sundried Tomato": {
+   "Ingredient": [
+    "Tomato",
+    "Pasta"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ },
+ "302": {
+  "Bean Tofu with Fresh Salsa Verde": {
+   "Ingredient": [
+    "Tofu"
+   ],
+   "Flavor": [],
+   "Allergies": [],
+   "Soup": false
+  }
+ }
+}{
+ "Monday": {
+  "lunch": {
+   "Baker Kitchen": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "North Servery": [
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65
+   ],
+   "Seibel Servery": [
+    1,
+    140,
+    2,
+    141,
+    4,
+    5
+   ],
+   "South Servery": [
+    174,
+    175,
+    176,
+    177,
+    178,
+    179
+   ],
+   "West Servery": [
+    236,
+    237,
+    238,
+    239,
+    240,
+    241,
+    242
+   ]
+  },
+  "dinner": {
+   "Baker Kitchen": [
+    30,
+    31,
+    32,
+    33,
+    34,
+    35
+   ],
+   "North Servery": [
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103
+   ],
+   "Seibel Servery": [
+    30,
+    31,
+    32,
+    33,
+    34,
+    35
+   ],
+   "South Servery": [
+    142,
+    207,
+    208,
+    209,
+    210
+   ],
+   "West Servery": [
+    48,
+    274,
+    275,
+    276,
+    277
+   ]
+  }
+ },
+ "Tuesday": {
+  "lunch": {
+   "Baker Kitchen": [
+    6
+   ],
+   "North Servery": [
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72
+   ],
+   "Seibel Servery": [
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148
+   ],
+   "South Servery": [
+    180,
+    181,
+    182,
+    183,
+    184,
+    185,
+    186
+   ],
+   "West Servery": [
+    243,
+    244,
+    245,
+    246,
+    247,
+    248,
+    249
+   ]
+  },
+  "dinner": {
+   "Baker Kitchen": [
+    36,
+    37,
+    38,
+    39,
+    40,
+    41
+   ],
+   "North Servery": [
+    104,
+    105,
+    106,
+    107,
+    108,
+    40,
+    109
+   ],
+   "Seibel Servery": [
+    36,
+    37,
+    38,
+    39,
+    40,
+    41
+   ],
+   "South Servery": [
+    211,
+    212,
+    213,
+    214,
+    215,
+    216
+   ],
+   "West Servery": [
+    278,
+    279,
+    280,
+    281,
+    282
+   ]
+  }
+ },
+ "Wednesday": {
+  "lunch": {
+   "Baker Kitchen": [
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "North Servery": [
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79
+   ],
+   "Seibel Servery": [
+    7,
+    8,
+    9,
+    10,
+    77,
+    11
+   ],
+   "South Servery": [
+    187,
+    66,
+    188,
+    189,
+    190,
+    191
+   ],
+   "West Servery": [
+    250,
+    251,
+    252,
+    253,
+    254,
+    255,
+    256
+   ]
+  },
+  "dinner": {
+   "Baker Kitchen": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    47
+   ],
+   "North Servery": [
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116
+   ],
+   "Seibel Servery": [
+    42,
+    43,
+    44,
+    160,
+    161,
+    47,
+    162
+   ],
+   "South Servery": [
+    130,
+    217,
+    218,
+    219,
+    220
+   ],
+   "West Servery": [
+    117,
+    283,
+    284,
+    285,
+    286
+   ]
+  }
+ },
+ "Thursday": {
+  "lunch": {
+   "Baker Kitchen": [
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "North Servery": [
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    22
+   ],
+   "Seibel Servery": [
+    12,
+    13,
+    14,
+    149,
+    150,
+    16,
+    17
+   ],
+   "South Servery": [
+    192,
+    193,
+    194,
+    195,
+    196,
+    197
+   ],
+   "West Servery": [
+    66,
+    257,
+    258,
+    259,
+    260,
+    261,
+    262
+   ]
+  },
+  "dinner": {
+   "Baker Kitchen": [
+    48,
+    49,
+    50,
+    51,
+    52
+   ],
+   "North Servery": [
+    117,
+    118,
+    119,
+    120,
+    51,
+    121,
+    122
+   ],
+   "Seibel Servery": [
+    48,
+    163,
+    49,
+    50,
+    51,
+    164,
+    52
+   ],
+   "South Servery": [
+    221,
+    222,
+    223,
+    224,
+    225
+   ],
+   "West Servery": [
+    287,
+    288,
+    289,
+    290,
+    291
+   ]
+  }
+ },
+ "Friday": {
+  "lunch": {
+   "Baker Kitchen": [
+    18,
+    19,
+    20,
+    21,
+    22
+   ],
+   "North Servery": [
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92
+   ],
+   "Seibel Servery": [
+    18,
+    151,
+    19,
+    20,
+    21,
+    152,
+    153
+   ],
+   "South Servery": [
+    198,
+    117,
+    199,
+    200,
+    201
+   ],
+   "West Servery": [
+    18,
+    263,
+    264,
+    265,
+    266,
+    267,
+    268
+   ]
+  },
+  "dinner": {
+   "North Servery": [
+    66,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    53
+   ],
+   "Seibel Servery": [
+    165,
+    166,
+    167,
+    168,
+    169,
+    127
+   ],
+   "South Servery": [
+    226,
+    227,
+    228,
+    229,
+    230
+   ],
+   "West Servery": [
+    292,
+    293,
+    294,
+    295,
+    296
+   ]
+  }
+ },
+ "Saturday": {
+  "lunch": {
+   "Baker Kitchen": [
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29
+   ],
+   "North Servery": [
+    93,
+    94,
+    25,
+    24,
+    28,
+    95,
+    96
+   ],
+   "Seibel Servery": [
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29
+   ]
+  },
+  "dinner": {
+   "Baker Kitchen": [
+    53,
+    54,
+    55,
+    56,
+    57,
+    58
+   ],
+   "North Servery": [
+    129,
+    54,
+    130,
+    131,
+    132
+   ],
+   "Seibel Servery": [
+    53,
+    54,
+    55,
+    56,
+    57,
+    58
+   ],
+   "West Servery": [
+    297
+   ]
+  }
+ },
+ "Sunday": {
+  "lunch": {
+   "Seibel Servery": [
+    59,
+    154,
+    155,
+    156,
+    157,
+    158,
+    159
+   ],
+   "South Servery": [
+    202,
+    203,
+    204,
+    205,
+    206
+   ],
+   "West Servery": [
+    269,
+    270,
+    271,
+    272,
+    273
+   ]
+  },
+  "dinner": {
+   "North Servery": [
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139
+   ],
+   "Seibel Servery": [
+    66,
+    170,
+    171,
+    172,
+    173,
+    138
+   ],
+   "South Servery": [
+    231,
+    232,
+    233,
+    234,
+    235
+   ],
+   "West Servery": [
+    298,
+    299,
+    300,
+    301,
+    302
+   ]
+  }
+ }
+}
