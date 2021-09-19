@@ -56,6 +56,7 @@ const firebaseConfig = {
           foodName = Object.keys(foodDB[foodItems[food]])[0];
           displayServeryFood(foodName, servery);
         }
+      }
       for (var servery in menu["dinner"]){
         console.log("dinner forloop:" + servery);
         foodItems = menu["dinner"][servery];
