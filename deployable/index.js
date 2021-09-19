@@ -17,7 +17,7 @@ firebase.auth().setPersistence(firebase.auth.Auth.Persistence.SESSION)
 firebase.auth().onAuthStateChanged(function(user) {
   if (user) {
     // User is signed in.
-
+    console.log("signed-in");
     document.getElementById("user_div").style.display = "block";
     document.getElementById("login_div").style.display = "none";
 
