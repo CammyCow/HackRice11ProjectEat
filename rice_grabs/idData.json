@@ -68,7 +68,7 @@
   }
  },
  "6": {
-  "CLOSED\n": {
+  "CLOSED": {
    "Ingredient": [],
    "Flavor": [],
    "Allergies": [],
@@ -730,7 +730,7 @@
   }
  },
  "68": {
-  "Honey Lime Roasted Chicken Legs\n": {
+  "Honey Lime Roasted Chicken Legs": {
    "Ingredient": [
     "Chicken"
    ],
@@ -791,7 +791,7 @@
   }
  },
  "74": {
-  "Italian Sausage Ragout\n": {
+  "Italian Sausage Ragout": {
    "Ingredient": [
     "Sausage"
    ],
@@ -996,7 +996,7 @@
   }
  },
  "94": {
-  "Beef Barbacoa\n": {
+  "Beef Barbacoa": {
    "Ingredient": [
     "Beef"
    ],
@@ -1169,7 +1169,7 @@
   }
  },
  "111": {
-  "Barbecue Smoked Sausage\n": {
+  "Barbecue Smoked Sausage": {
    "Ingredient": [
     "Sausage"
    ],
@@ -1181,7 +1181,7 @@
   }
  },
  "112": {
-  "Beer Can Roasted Chicken\n": {
+  "Beer Can Roasted Chicken": {
    "Ingredient": [
     "Chicken"
    ],
@@ -1346,7 +1346,7 @@
   }
  },
  "129": {
-  "Barbecue Pulled Pork\n": {
+  "Barbecue Pulled Pork": {
    "Ingredient": [
     "Pork"
    ],
@@ -1635,7 +1635,7 @@
   }
  },
  "156": {
-  "Grilled Chicken with Roasted Corn Salsa\n": {
+  "Grilled Chicken with Roasted Corn Salsa": {
    "Ingredient": [
     "Corn",
     "Chicken"
@@ -1823,7 +1823,7 @@
   }
  },
  "174": {
-  "Chimichurri Chicken Breast\n": {
+  "Chimichurri Chicken Breast": {
    "Ingredient": [
     "Chicken"
    ],
@@ -1875,7 +1875,7 @@
   }
  },
  "179": {
-  "Green Chicken Pozole\n": {
+  "Green Chicken Pozole": {
    "Ingredient": [
     "Chicken"
    ],
@@ -1885,7 +1885,7 @@
   }
  },
  "180": {
-  "Italian Spicy Pork Sausage\n": {
+  "Italian Spicy Pork Sausage": {
    "Ingredient": [
     "Pork",
     "Sausage"
@@ -1976,7 +1976,7 @@
   }
  },
  "188": {
-  "Sweet and Spicy Shicken with Pickled Vegetables\n": {
+  "Sweet and Spicy Shicken with Pickled Vegetables": {
    "Ingredient": [
     "Vegetable"
    ],
@@ -2200,7 +2200,7 @@
   }
  },
  "207": {
-  "Tandoori Spiced Chicken\n": {
+  "Tandoori Spiced Chicken": {
    "Ingredient": [
     "Chicken"
    ],
@@ -2257,7 +2257,7 @@
   }
  },
  "212": {
-  "Beef Bourguignon\n": {
+  "Beef Bourguignon": {
    "Ingredient": [
     "Beef"
    ],
@@ -2438,7 +2438,7 @@
   }
  },
  "228": {
-  "Baked Chicken, Red Pepper and Parsley Vinaigrette\n": {
+  "Baked Chicken, Red Pepper and Parsley Vinaigrette": {
    "Ingredient": [
     "Red Pepper",
     "Chicken"
@@ -2483,7 +2483,7 @@
   }
  },
  "232": {
-  "Chipotle BBQ Glazed Smoked Chicken\n": {
+  "Chipotle BBQ Glazed Smoked Chicken": {
    "Ingredient": [
     "Chicken"
    ],
@@ -3178,7 +3178,7 @@
   }
  },
  "297": {
-  "dinner available at North and Seibel serveries\n": {
+  "dinner available at North and Seibel serveries": {
    "Ingredient": [],
    "Flavor": [],
    "Allergies": [],
