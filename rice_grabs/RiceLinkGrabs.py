@@ -120,7 +120,7 @@ def food_sort(menu_dishes, ingredients, flavors, allergies, soups):
         # iterate over allergies
         for ingre2 in allergies:
             if ingre2 in dish1:
-                dish1_attr['Allergies'].append(attr2)
+                dish1_attr['Allergies'].append(ingre2)
         # iterate over soups
         for attr3 in soups:
             if attr3 in dish1:
