@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,600,700");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #8e44ad;
+}
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:lightgrey;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td{
+    color:white;
+    font-family: "Quicksand", sans-serif;  
+    font-size: 30px;
+    padding: 10px;
+}
+
+h1{
+    color:white;
+    font-family: "Quicksand", sans-serif;  
+    font-size: 50px;
+    padding: 30px;
+}
+
+
+button {
+    color:white;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    background-color: #733a8a;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: "Quicksand", sans-serif;  
+    cursor: pointer;
+    border-radius: 5px;
+}
