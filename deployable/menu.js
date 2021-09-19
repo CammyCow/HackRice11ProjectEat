@@ -50,6 +50,13 @@ const firebaseConfig = {
       console.log(menu);
       for (var servery in menu["lunch"]){
         console.log("Lunch forloop:" + servery);
+
+        var lunchHeader = document.createElement('H2');
+        var lun = document.createTextNode("Lunch");
+        lunchHeader.appendChild(lun);
+        document.getElementById(servery).appendChild(lunchHeader);
+        console.log(document.getElementById(servery));
+
         foodItems = menu["lunch"][servery];
         console.log(foodItems);
         for(var food in foodItems){
@@ -57,7 +64,13 @@ const firebaseConfig = {
           displayServeryFood(foodName, servery);
         }
       }
+
       for (var servery in menu["dinner"]){
+        var dinnerHeader = document.createElement('H2');
+        var din = document.createTextNode("Dinner");
+        console.log(din);
+        dinnerHeader.appendChild(din);
+        document.getElementById(servery).appendChild(dinnerHeader);
         console.log("dinner forloop:" + servery);
         foodItems = menu["dinner"][servery];
         console.log(foodItems);
@@ -72,12 +85,8 @@ const firebaseConfig = {
     }
 
     function displayServeryFood(foodName, servString){
-      console.log(foodName);
       const paragraph = document.createElement('p');
       var node = document.createTextNode(foodName + ", ");
-      console.log(node);
       paragraph.appendChild(node);
-      console.log(servString);
-      console.log(document.getElementById(servString));
       document.getElementById(servString).appendChild(paragraph);
     }
