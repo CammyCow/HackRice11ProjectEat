@@ -7,6 +7,20 @@ h1{
     font-size: 60px;
     padding: 100px 0;
 }
+#user_para {
+    color:white;
+    text-align: center;
+    font-size: 60px;
+    padding-top:120px;
+    padding-bottom: 0;
+}
+
+#lunch-servery, #dinner-servery{
+    color:#8e44ad;
+    text-align: center;
+    font-size: 60px;
+}
+
 .center {
     display: block;
     margin: auto;

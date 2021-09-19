@@ -32,18 +32,22 @@
             }
         </script>
 
+        <script src="loggedin_main.js"></script>
+
+
+
 <nav class="nav">
     <div class="container">
         <div class="logo">
         </div>
         <div id="mainListDiv" class="main_list">
             <ul class="navlinks">
-                <li><a href="#about">About</a></li>
+                <li><a href="about.html">About</a></li>
 
                 <li><a href="menu.html">Menu</a></li>
                 <li><a href="main.html">Logout</a></li>
                 <li>
-                    
+
                 </li>
                 <!--<li><button onclick="logout()">Logout</button></li>-->
             </ul>
@@ -56,13 +60,86 @@
     </div>
 </nav>
 
+
+<style>
+    /* Pen-specific styles */
+* {
+  box-sizing: border-box;
+}
+
+section {
+  color: #fff;
+  text-align: center;
+}
+
+div {
+  height: 100%;
+}
+
+article {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 20px;
+}
+
+/* Pattern styles */
+.container {
+  display: table;
+  width: 100%;
+}
+
+.left-half {
+  background-color: white;
+  position: absolute;
+  left: 0px;
+  width: 50%;
+}
+
+.right-half {
+  background-color: whitesmoke;
+  position: absolute;
+  right: 0px;
+  width: 50%;
+}
+span{
+    color:white;
+}
+
+</style>
+
         <div id="user_div" class="loggedin-div">  
-            <h1 id="user_para" style="color: white;">Welcome to RicEATS. You're currently logged in.</h1>
+            <h1 id="user_para" style="color: white;">Hi, welcome back to RicEATS. <br>
+                Here are your servery recommendations for <br><span id="date-time"></span>:</h1>
         </div>
 
         <div class="center">
             <img src="logo_white.png" height=60px id="lg">
         </div>
+
+        <script>
+            let today = new Date().toISOString().slice(0, 10);
+            document.getElementById("date-time").innerHTML=today;
+        </script>
+
+        <section class="container">
+            <div class="left-half">
+              <article>
+                <h1 id="lunch-servery">Lunch Servery</h1>
+                <p id="lunch"></p>
+              </article>
+            </div>
+            <div class="right-half">
+              <article>
+                <h1 id="dinner-servery">Dinner Servery</h1>
+                <p id="dinner"></p>
+              </article>
+            </div>
+          </section>
+
+
 
     </body>
 </html>
